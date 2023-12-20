@@ -1,0 +1,241 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello 👋, I’m Leandro."
+  subtitle: "Product Designer"
+  description: "I help create products and change businesses through Product Management, Product Design and Digital Marketing."
+  image:
+    x: "img/showcase/esbocos.png"
+    _2x: "img/showcase/esbocos@2x.png"
+  imageMobile:
+    x: "img/showcase/esbocos.png"
+
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/leomedeiros"
+
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "../resume-leandromedeiros.pdf"
+
+
+  socialLinks:
+    # - icon: "linkedin"
+    #   URL: "https://www.linkedin.com/company/radity/"
+
+    # - icon: "github"
+    #   URL: "https://github.com/radity"
+
+    # - icon: "twitter"
+    #   URL: "https://twitter.com/radity"
+
+    # - icon: "dribbble"
+    #   URL: "https://dribbble.com/radity"
+
+    # - icon: "behance"
+    #   URL: "https://www.behance.net/radity-digital"
+
+    # - icon: "youtube"
+    #   URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+
+    # - icon: "instagram"
+    #   URL: "https://www.instagram.com/teamradity/"
+
+    # - icon: "facebook"
+    #   URL: "https://www.facebook.com/raditycom/"
+
+    # - icon: "codepen"
+    #   URL: "#"
+
+    # - icon: "yelp"
+    #   URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    My name is Leandro, I’m a designer from Brazil. I have solid experience and technical knowledge to help teams create and change products and businesses.
+    </p>
+    <p class="lead">
+    I believe in transformation through design. As a product designer, I learned that technology is all about people.
+    That’s why I decided to get certified in Product Management (PM3), Digital Marketing (PUC Minas) and Digital Transformation (FGV) to have a complete view of the product life cycle and advance my career to other levels.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "My Profile"
+    URL: "https://www.linkedin.com/in/leomedeiros"
+  image:
+    x: "img/who-am-i/fotoperfil3.jpeg"
+    _2x: "img/who-am-i/fotoperfil@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Pontifical Catholic University of Minas Gerais"
+      year: "2022-"
+      degree: "Graduate Student in Digital Marketing - Business and Strategies"
+
+    - university: "Estácio de Sá University"
+      year: "2020-2022"
+      degree: "Internet Systems Degree"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 18+ years of experience working with great companies. I design digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/leomedeiros"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "../resume-leandromedeiros.pdf"
+
+  items:
+    - title: "Sr. Product Designer"
+      company: "TOTVS"
+      duration: "May 2023 -"
+
+    - title: "Sr. UX Designer"
+      company: "G4F"
+      duration: "Jan 2023 - May 2023"
+
+    - title: "UX Designer"
+      company: "LG lugar de gente"
+      duration: "Dez 2010 - Oct 2022"
+
+# Companies & Work
+client_and_work:
+  title: "Case studies"
+  enable: true
+
+  works:
+    - title: "Product Journey of an ERP for Retail"
+      description: "Previously a product from another tech company, which was acquired in 2013, the product underwent some changes to adapt to the new company’s identity, but the user experience and its appearance have not changed significantly. Reason for the company’s decision to invest in a complete modernization."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read case study"
+        URL: "https://leandrodemedeiros.medium.com/case-study-product-journey-of-an-erp-for-retail-1ee2f6b94866"
+      image:
+        x: "img/works/erpretail.png"
+        _2x: "img/works/rerpretail@2x.png"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read case study"
+        URL: "/portfolio.html"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read case study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+
+   # clients:
+  #   - logo:
+  #       x: "img/clients/asgardia.png"
+  #       _2x: "img/clients/asgardia@2x.png"
+  #     alt: "Asgardia"
+
+  #   - logo:
+  #       x: "img/clients/earth-2.png"
+  #       _2x: "img/clients/earth-2@2x.png"
+  #     alt: "Earth 2.0"
+
+  #   - logo:
+  #       x: "img/clients/goldline.png"
+  #       _2x: "img/clients/goldline@2x.png"
+  #     alt: "Goldline"
+
+  #   - logo:
+  #       x: "img/clients/kanba.png"
+  #       _2x: "img/clients/kanba@2x.png"
+  #     alt: "Kanba"
+
+  #   - logo:
+  #       x: "img/clients/zoo-tv.png"
+  #       _2x: "img/clients/zoo-tv@2x.png"
+  #     alt: "Zoo"
+
+  #   - logo:
+  #       x: "img/clients/ztos.png"
+  #       _2x: "img/clients/ztos@2x.png"
+  #     alt: "Ztos"
+
+# testimonial
+# testimonial:
+#   enable: true
+#   title: "Testimonials"
+#   items:
+#     - name: "Daniel Jordan"
+#       position: "Phonet, CEO"
+#       content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+#       image:
+#         x: "img/testimonials/daniel-jordan.jpg"
+#         _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+#     - name: "Jonathan Peters"
+#       position: "Textic, CEO"
+#       content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+#       image:
+#         x: "img/testimonials/jonathan-peters.jpg"
+#         _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+#     - name: "Antonio Willis"
+#       position: "Cyberse, CEO"
+#       content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+#       image:
+#         x: "img/testimonials/antonio-willis.jpg"
+#         _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+55 (62) 991721587"
+  email:
+    title: "Email"
+    email: '<a href="mailto:falecom@leandrodemedeiros.com.br">falecom@leandrodemedeiros.com.br</a>'
+  address:
+    title: "Address"
+    address: "Goiânia – Goiás, Brazil"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."

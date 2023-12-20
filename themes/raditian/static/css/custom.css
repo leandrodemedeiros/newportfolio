@@ -1,0 +1,11 @@
+/* You can customize theme styles here */
+
+/* images */
+
+.about__profile-picture img{
+    -webkit-mask: url(/img/hero-mask-svg.png);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center center;
+    /* max-height: 450px; */
+}
