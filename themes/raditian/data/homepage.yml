@@ -129,14 +129,14 @@ client_and_work:
       is_even: true
 
     - title: "Recreating an ESS portal"
-      description: "Rewriting the market-leading payroll software in Brazil to meet the SaaS delivery model required an elaborate study. And the Employee Self-Service Portal (ESS), one of the vital parts of the product, was one of the main focuses of this project."
+      description: "Rewriting the market-leading payroll software in Brazil to meet the SaaS delivery model required an elaborate study. And the Employee Self-Service Portal (ESS Portal), one of the vital parts of the product, was one of the main focuses of this project."
       button:
         icon: "icon-arrow-right"
         btnText: "Read case study"
         URL: "https://leandrodemedeiros.medium.com/recreating-an-ess-saas-portal-7e502f397e36"
       image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
+        x: "img/works/sprint.png"
+        _2x: "img/works/sprint@2x.png"
       is_even: false
 
     # - title: "Robo Advisor"
