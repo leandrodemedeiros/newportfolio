@@ -128,16 +128,16 @@ client_and_work:
         _2x: "img/works/rerpretail@2x.png"
       is_even: true
 
-    # - title: "Swiss Fintech Website"
-    #   description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-    #   button:
-    #     icon: "icon-arrow-right"
-    #     btnText: "Read case study"
-    #     URL: "/portfolio.html"
-    #   image:
-    #     x: "img/works/swissfintech.jpg"
-    #     _2x: "img/works/swissfintech@2x.jpg"
-    #   is_even: false
+    - title: "Recreating an ESS portal"
+      description: "Rewriting the market-leading payroll software in Brazil to meet the SaaS delivery model required an elaborate study. And the Employee Self-Service Portal (ESS), one of the vital parts of the product, was one of the main focuses of this project."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read case study"
+        URL: "https://leandrodemedeiros.medium.com/recreating-an-ess-saas-portal-7e502f397e36"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
 
     # - title: "Robo Advisor"
     #   description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
