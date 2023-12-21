@@ -13,8 +13,8 @@
               <img
                 class="lozad img-responsive"
                 src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-                data-src="{{ .logo.x | absURL }}"
-                data-srcset="{{ .logo.x | absURL }} 1x, {{ .logo._2x | absURL }} 2x"
+                data-src="{{ .logo.x | relURL }}"
+                data-srcset="{{ .logo.x | relURL }} 1x, {{ .logo._2x | relURL }} 2x"
                 alt="{{ .alt }}"
               />
             </a>
@@ -41,8 +41,8 @@
         <img
           class='lozad img-responsive {{ cond (eq ( mod $index 4) 0) "img-clip-left-backward" "img-clip-left-forward" }}'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .image.x | absURL }}"
-          data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
+          data-src="{{ .image.x | relURL }}"
+          data-srcset="{{ .image.x | relURL }} 1x, {{ .image._2x | relURL }} 2x"
           alt="{{ .title }}"
         />
       </div>
@@ -51,8 +51,8 @@
         <img
           class='lozad img-responsive {{ cond (eq ( mod $index 4) 1)  "img-clip-right-backward" "img-clip-right-forward" }}'
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .image.x | absURL }}"
-          data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
+          data-src="{{ .image.x | relURL }}"
+          data-srcset="{{ .image.x | relURL }} 1x, {{ .image._2x | relURL }} 2x"
           alt="{{ .title }}"
         />
       </div>
