@@ -68,7 +68,7 @@ theme = "raditian"
     text2 = ".com .br"
 
   [params.footer]
-      copyright = "© Leandro Medeiros. All rights reserved."
+      copyright = "© Leandro de Medeiros. All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
