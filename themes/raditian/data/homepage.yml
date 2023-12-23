@@ -17,7 +17,7 @@ showcase:
 
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download My Resume"
+    btnText: "My Resume"
     URL: "../resume-leandromedeiros.pdf"
 
 
@@ -95,7 +95,7 @@ experience:
     URL: "https://www.linkedin.com/in/leomedeiros"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download My Resume"
+    btnText: "My Resume"
     URL: "../resume-leandromedeiros.pdf"
 
   items:
