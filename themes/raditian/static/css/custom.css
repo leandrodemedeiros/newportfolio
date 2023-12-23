@@ -6,6 +6,10 @@
     margin: 2px 0;
 }
 
+.contact div{
+    margin: 15px 0;
+}
+
 .about__profile-picture img{
     -webkit-mask: url(/img/hero-mask-svg.png);
     -webkit-mask-repeat: no-repeat;
