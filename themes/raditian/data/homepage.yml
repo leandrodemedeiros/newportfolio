@@ -125,7 +125,7 @@ client_and_work:
         URL: "https://leandrodemedeiros.medium.com/case-study-product-journey-of-an-erp-for-retail-1ee2f6b94866"
       image:
         x: "img/works/erpretail.png"
-        _2x: "img/works/rerpretail@2x.png"
+        _2x: "img/works/erpretail@2x.png"
       is_even: false
 
     - title: "Recreating an ESS portal"
