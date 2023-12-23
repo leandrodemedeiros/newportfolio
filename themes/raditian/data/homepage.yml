@@ -224,8 +224,8 @@ contact:
     title: "Email"
     email: '<a href="mailto:falecom@leandrodemedeiros.com.br">falecom@leandrodemedeiros.com.br</a>'
   address:
-    title: "Address"
-    address: "Goiânia – Goiás, Brazil"
+    title: ""
+    address: ""
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
