@@ -128,6 +128,17 @@ client_and_work:
         _2x: "img/works/rerpretail@2x.png"
       is_even: false
 
+    - title: "App for a government agency"
+      description: "One of the things that attracted me to this project was its purpose: to allow people to help the agency by reporting situations occurring on the roads. The idea for the app is incredibly good, but there were several challenges to making it work."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Read case study"
+        URL: "https://leandrodemedeiros.medium.com/case-study-app-for-a-government-agency-115b4bd12894"
+      image:
+        x: "img/works/hmwideation.jpg"
+        _2x: "img/works/hmwideation@2x.jpg"
+      is_even: true
+
     - title: "Recreating an ESS portal"
       description: "Rewriting the market-leading payroll software in Brazil to meet the SaaS delivery model required an elaborate study. And the Employee Self-Service Portal (ESS Portal), one of the vital parts of the product, was one of the main focuses of this project."
       button:
@@ -137,7 +148,7 @@ client_and_work:
       image:
         x: "img/works/sprint.png"
         _2x: "img/works/sprint@2x.png"
-      is_even: true
+      is_even: false
 
     # - title: "Robo Advisor"
     #   description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
