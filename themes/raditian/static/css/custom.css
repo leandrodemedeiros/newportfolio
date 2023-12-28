@@ -2,10 +2,40 @@
 
 /* images */
 
+.btn{
+    margin: 2px 0;
+}
+
+.contact{
+    padding: 60px 0px !important;
+}
+
+.contact div{
+    margin: 15px 0 !important;
+}
+
 .about__profile-picture img{
     -webkit-mask: url(/img/hero-mask-svg.png);
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
     -webkit-mask-position: center center;
     /* max-height: 450px; */
+}
+.header .navbar-brand span:first-child{
+    font-size: 1.3rem !important;
+}
+
+.header .navbar{
+    justify-content: space-between !important;
+}
+
+.header .navbar-toggler:not(.nav-link){
+    position: unset !important;
+}
+
+@media (min-width: 768px){
+.header .navbar-brand span:nth-child(2){
+    font-size: 1.5rem !important;
+    margin-top: -20px !important;
+}
 }

@@ -17,7 +17,7 @@ showcase:
 
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download My Resume"
+    btnText: "My Resume"
     URL: "../resume-leandromedeiros.pdf"
 
 
@@ -95,7 +95,7 @@ experience:
     URL: "https://www.linkedin.com/in/leomedeiros"
   button2:
     icon: "icon-profile-fill"
-    btnText: "Download My Resume"
+    btnText: "My Resume"
     URL: "../resume-leandromedeiros.pdf"
 
   items:
@@ -125,7 +125,7 @@ client_and_work:
         URL: "https://leandrodemedeiros.medium.com/case-study-product-journey-of-an-erp-for-retail-1ee2f6b94866"
       image:
         x: "img/works/erpretail.png"
-        _2x: "img/works/rerpretail@2x.png"
+        _2x: "img/works/erpretail@2x.png"
       is_even: false
 
     - title: "App for a government agency"
@@ -235,8 +235,8 @@ contact:
     title: "Email"
     email: '<a href="mailto:falecom@leandrodemedeiros.com.br">falecom@leandrodemedeiros.com.br</a>'
   address:
-    title: "Address"
-    address: "Goiânia – Goiás, Brazil"
+    title: ""
+    address: ""
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
