@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: "Hello 👋, I’m Leandro."
   subtitle: "Product Designer"
-  description: "I help create products and change businesses through Product Management, Product Design and Digital Marketing."
+  description: "Designing products that change businesses through user experience."
   image:
     x: "img/showcase/esbocos.png"
     _2x: "img/showcase/esbocos@2x.png"
@@ -54,14 +54,13 @@ showcase:
 
 # about
 about:
-  enable: true
+  enable: false
   title: "Who am I?"
   content: '<p class="lead">
-    My name is Leandro, I’m a designer from Brazil. I have solid experience and technical knowledge to help teams create and change products and businesses.
+    My name is Leandro, I am a designer from Brazil. I have the experience and technical knowledge to help teams transform products and businesses.
     </p>
     <p class="lead">
-    I believe in transformation through design. As a product designer, I learned that technology is all about people.
-    That’s why I decided to get certified in Product Management (PM3), Digital Marketing (PUC Minas) and Digital Transformation (FGV) to have a complete view of the product life cycle and advance my career to other levels.
+    As a product designer, I learned that technology is about people. I am certified in Product Management by <a href="https://www.cursospm3.com.br/" target="_blank">PM3</a>, Digital Transformation by <a href="http://fgv.educon.com.br/" target="_blank">FGV</a> and I am currently studying a postgraduate degree in Digital Marketing at <a href="http://www.pucminas.br/" target="_blank">PUC Minas</a>.
     </p>'
   button:
     icon: "icon-smile-fill"
@@ -76,19 +75,19 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "Pontifical Catholic University of Minas Gerais"
-      year: "2022-"
+    - university: "PUC Minas"
+      year: "2022 - "
       degree: "Graduate Student in Digital Marketing - Business and Strategies"
 
     - university: "Estácio de Sá University"
-      year: "2020-2022"
+      year: "2020 - 2022"
       degree: "Internet Systems Degree"
 
 # experience
 experience:
   enable: true
-  title: "Experience"
-  description: "Over 18+ years of experience working with great companies. I design digital products to help businesses and improve people's lives."
+  title: "Career"
+  description: "Designing digital experiences since 2004."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -99,9 +98,13 @@ experience:
     URL: "../resume-leandromedeiros.pdf"
 
   items:
+    # - title: "Sr. UX Designer"
+    #     company: "Sittax"
+    #     duration: "Apr 2024 - "
+
     - title: "Sr. Product Designer"
       company: "TOTVS"
-      duration: "May 2023 -"
+      duration: "May 2023 - Jan 2024"
 
     - title: "Sr. UX Designer"
       company: "G4F"
@@ -221,7 +224,7 @@ client_and_work:
 
 # contact
 contact:
-  enable: true
+  enable: false
   title: "Contact"
   form:
     action: "#"

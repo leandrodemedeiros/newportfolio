@@ -26,35 +26,35 @@ theme = "raditian"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
+  name = "Career"
+  URL = "#experience"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
+  name = "Case studies"
   URL = "#portfolio"
   weight = 3
 
-  [[menu.header]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
+  # [[menu.header]]
+  # name = "Contact"
+  # URL = "#contact"
+  # weight = 4
 
 
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
+  name = "Career"
+  URL = "#experience"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
+  name = "Case studies"
   URL = "#portfolio"
   weight = 3
 
-  [[menu.footer]]
-  name = "Contact"
-  URL = "#contact"
-  weight = 4
+  # [[menu.footer]]
+  # name = "Contact"
+  # URL = "#contact"
+  # weight = 4
 
 
 [params]

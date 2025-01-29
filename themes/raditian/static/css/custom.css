@@ -1,6 +1,9 @@
 /* You can customize theme styles here */
 
-/* images */
+p a:hover{
+    background-color: red;
+    color: white !important;
+}
 
 .btn{
     margin: 2px 0;
