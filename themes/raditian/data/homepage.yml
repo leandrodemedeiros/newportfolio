@@ -18,7 +18,7 @@ showcase:
   button2:
     icon: "icon-profile-fill"
     btnText: "Resume"
-    URL: "../resume-leandromedeiros.pdf"
+    URL: "../CV_LeandroDeMedeiros-EN.pdf"
 
   button3:
     icon: "icon-profile-fill"
@@ -101,7 +101,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Resume"
-    URL: "../resume-leandromedeiros.pdf"
+    URL: "../CV_LeandroDeMedeiros-EN.pdf"
   button3:
     icon: "icon-profile-fill"
     btnText: "Resume PT-Br"
