@@ -17,8 +17,13 @@ showcase:
 
   button2:
     icon: "icon-profile-fill"
-    btnText: "My Resume"
+    btnText: "Resume"
     URL: "../resume-leandromedeiros.pdf"
+
+  button3:
+    icon: "icon-profile-fill"
+    btnText: "Resume PT-Br"
+    URL: "../CV_LeandroDeMedeiros.pdf"
 
 
   socialLinks:
@@ -94,8 +99,12 @@ experience:
     URL: "https://www.linkedin.com/in/leomedeiros"
   button2:
     icon: "icon-profile-fill"
-    btnText: "My Resume"
+    btnText: "Resume"
     URL: "../resume-leandromedeiros.pdf"
+  button3:
+    icon: "icon-profile-fill"
+    btnText: "Resume PT-Br"
+    URL: "../CV_LeandroDeMedeiros.pdf"
 
   items:
 
@@ -105,7 +114,7 @@ experience:
 
     - title: "Sr. Product Designer"
       company: "TOTVS"
-      duration: "May 2023 - Jan 2024"
+      duration: "May 2023 - Fev 2024"
 
     - title: "Sr. UX Designer"
       company: "G4F"
