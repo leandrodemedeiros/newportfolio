@@ -57,6 +57,7 @@ showcase:
     # - icon: "yelp"
     #   URL: "https://www.yelp.com/"
 
+
 # about
 about:
   enable: false
