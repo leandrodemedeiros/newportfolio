@@ -7,6 +7,9 @@ role: "Senior UX Designer"
 period: "2024 até hoje"
 team: "Design, produto e desenvolvimento"
 cover: "ledger"
+image: "img/cases/sittax-simples-painel.jpg"
+imageAlt: "Painel do Sittax Simples com indicadores de transmissão, resumo do mês, apurações por setor, tabela de empresas e notificações de prazos"
+imageCaption: "Painel inicial do Sittax Simples: num só lugar, o contador vê quais empresas estão prontas para transmitir, quais têm inconsistências e quais prazos estão chegando. Dados fictícios."
 weight: 1
 metrics:
   - value: "255 mil"
@@ -38,7 +41,7 @@ Descreva em 3 a 5 frases como era a experiência antes: o que mais travava o con
 - Redesenhei os fluxos e a interface, apoiado no design system que criei para os 6 produtos da empresa.
 
 {{< todo >}}
-Inclua 2 ou 3 telas (antes e depois, se possível) com dados fictícios. Para cada uma, uma legenda de uma frase dizendo o que mudou e por quê. Use o atalho shot, por exemplo: shot src="img/cases/simples-antes.png".
+A legenda descreve o que a tela mostra. Se puder, conte em uma frase o que mudou em relação à versão anterior ou por que o painel foi organizado assim. Uma tela de antes, ou de outro fluxo importante, também ajudaria.
 {{< /todo >}}
 
 ## Decisões e o que ficou de fora

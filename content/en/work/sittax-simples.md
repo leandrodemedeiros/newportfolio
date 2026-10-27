@@ -7,6 +7,9 @@ role: "Senior UX Designer"
 period: "2024 to present"
 team: "Design, product and engineering"
 cover: "ledger"
+image: "img/cases/sittax-simples-painel.jpg"
+imageAlt: "Sittax Simples dashboard with filing indicators, monthly summary, filings by sector, company table and deadline notifications"
+imageCaption: "The Sittax Simples home dashboard: in one place, accountants see which companies are ready to file, which have inconsistencies and which deadlines are coming up. Sample data."
 weight: 1
 metrics:
   - value: "255k"

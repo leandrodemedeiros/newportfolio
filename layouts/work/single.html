@@ -16,9 +16,12 @@
   </header>
 
   <div class="wrap">
-    <div class="case-cover case-cover-lg">
-      {{ with .Params.image }}<img src="{{ . | relURL }}" alt="">{{ else }}{{ partial "cover.html" .Params.cover }}{{ end }}
-    </div>
+    <figure class="case-hero-figure">
+      <div class="case-cover case-cover-lg">
+        {{ with .Params.image }}<img src="{{ . | relURL }}" alt="{{ $.Params.imageAlt }}">{{ else }}{{ partial "cover.html" .Params.cover }}{{ end }}
+      </div>
+      {{ with .Params.imageCaption }}<figcaption>{{ . }}</figcaption>{{ end }}
+    </figure>
   </div>
 
   {{ with .Params.metrics }}
