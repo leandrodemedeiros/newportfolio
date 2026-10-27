@@ -40,6 +40,8 @@ Descreva em 3 a 5 frases como era a experiência antes: o que mais travava o con
 - Reorganizei a arquitetura de informação: navegação, busca, rotulação e os padrões de interface do produto.
 - Redesenhei os fluxos e a interface, apoiado no design system que criei para os 6 produtos da empresa.
 
+{{< shot src="img/cases/sittax-simples-apuracao.jpg" alt="Tela de apuração do Sittax Simples com o valor do DAS calculado pelo Sittax e pelos XMLs, a economia gerada, a receita líquida, a auditoria de pendências e o percentual da receita por imposto" caption="Apuração, a tela central do produto: o DAS calculado pelo Sittax lado a lado com o cálculo pelas notas XML, a economia gerada, a auditoria das pendências da empresa e o peso de cada imposto na receita. Nome da empresa substituído por um exemplo." >}}
+
 {{< todo >}}
 A legenda descreve o que a tela mostra. Se puder, conte em uma frase o que mudou em relação à versão anterior ou por que o painel foi organizado assim. Uma tela de antes, ou de outro fluxo importante, também ajudaria.
 {{< /todo >}}
