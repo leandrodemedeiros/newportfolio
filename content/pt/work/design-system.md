@@ -1,12 +1,16 @@
 ---
 slug: "design-system"
-title: "Um design system para 6 produtos, documentado com IA"
-summary: "Criei e mantenho o design system da Sittax, com componentes, tokens e documentação automatizada com o Claude, para que qualquer pessoa do time construa telas no mesmo padrão."
+title: "Mandala DS: um design system para 6 produtos, documentado com IA"
+summary: "Criei e mantenho o Mandala DS, design system da Sittax, com componentes, tokens e documentação automatizada com o Claude, para que qualquer pessoa do time construa telas no mesmo padrão."
 company: "Sittax"
 role: "Senior UX Designer"
 period: "2024 até hoje"
 team: "Design, com os times dos 6 produtos"
 cover: "system"
+image: "img/cases/mandala-variaveis.jpg"
+imageSmall: true
+imageAlt: "Logotipo do Mandala DS ao lado do painel de variáveis do Figma, com coleções de primitivos, tokens e tema, e variáveis de borda e espaçamento"
+imageCaption: "Variáveis do Mandala DS no Figma, organizadas em primitivos, tokens e tema."
 weight: 2
 metrics:
   - value: "60%"
@@ -25,8 +29,10 @@ A Sittax tem 6 produtos para escritórios de contabilidade e profissionais da á
 - **UI kit.** Montei o UI kit no Figma como fonte única de verdade para design e desenvolvimento.
 - **Documentação automatizada com IA.** Usei o Claude para gerar e manter a documentação do sistema, de modo que ela acompanhe o que está em produção em vez de ficar desatualizada.
 
+{{< shot src="img/cases/mandala-menu-temas.jpg" alt="Menu lateral do Sittax Simples nas versões clara e escura, com os mesmos itens e ícones" caption="O mesmo componente de menu nos temas claro e escuro, gerados a partir das mesmas variáveis." >}}
+
 {{< todo >}}
-Inclua imagens do UI kit (componentes, tokens) e um trecho da documentação gerada. Explique em 2 ou 3 frases como funciona o fluxo com o Claude: o que entra, o que sai, quem usa.
+As duas imagens têm só 600 px de largura e ficam um pouco borradas em telas grandes. Se puder, exporte em 2x (1600 px ou mais). Também vale explicar em 2 ou 3 frases como funciona o fluxo de documentação com o Claude: o que entra, o que sai e quem usa.
 {{< /todo >}}
 
 ## Por que isso importa agora

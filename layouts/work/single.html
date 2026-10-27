@@ -16,7 +16,7 @@
   </header>
 
   <div class="wrap">
-    <figure class="case-hero-figure">
+    <figure class="case-hero-figure{{ if .Params.imageSmall }} is-small{{ end }}">
       <div class="case-cover case-cover-lg">
         {{ with .Params.image }}<img src="{{ . | relURL }}" alt="{{ $.Params.imageAlt }}">{{ else }}{{ partial "cover.html" .Params.cover }}{{ end }}
       </div>

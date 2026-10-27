@@ -229,6 +229,8 @@ section { scroll-margin-top: 80px; }
 .case-hero-figure { margin: clamp(32px, 5vw, 56px) 0 0; }
 .case-hero-figure figcaption { font-family: var(--display); font-size: .95rem; color: var(--muted); margin-top: .7rem; max-width: 70ch; }
 .case-cover-lg img { aspect-ratio: auto; }
+.case-hero-figure.is-small { max-width: 720px; }
+.shot img[src*="mandala"] { max-width: 720px; width: 100%; }
 .results ul { list-style: none; margin: clamp(32px, 5vw, 56px) 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); border-top: 2px solid var(--ink); }
 .results li { padding: 1.2rem 1.2rem 1.2rem 0; border-bottom: 1px solid var(--rule); display: flex; flex-direction: column; gap: .3rem; }
 .results .num { font-family: var(--display); font-size: clamp(1.9rem, 3.4vw, 2.6rem); line-height: 1.05; }
