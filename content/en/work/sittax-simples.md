@@ -40,7 +40,7 @@ The goal of the redesign was to take that work out of spreadsheets. The product 
 - Reorganized the information architecture: navigation, search, labeling and the product's interface patterns.
 - Redesigned the flows and interface, built on the design system I created for the company's 6 products.
 
-{{< shot src="img/cases/sittax-simples-apuracao.jpg" alt="Sittax Simples tax calculation screen with the DAS amount calculated by Sittax and from XML invoices, the savings, net revenue, the audit checklist and each tax's share of revenue" caption="Tax calculation, the core screen of the product: the DAS amount calculated by Sittax side by side with the calculation from XML invoices, the savings, an audit of the company's pending issues and each tax's share of revenue. Company name replaced with an example." >}}
+{{< shot src="img/cases/sittax-simples-apuracao.jpg" alt="Sittax Simples tax calculation screen with the DAS amount calculated by Sittax and from XML invoices, the savings, net revenue, the audit checklist and each tax's share of revenue" caption="Improved version of tax calculation, the core screen of the product, planned for 2026: the DAS amount calculated by Sittax side by side with the calculation from XML invoices, the savings, an audit of the company's pending issues and each tax's share of revenue. Company name replaced with an example." >}}
 
 ## Decisions and trade-offs
 
@@ -50,7 +50,9 @@ That was the constant work across the whole product: when there was too much inf
 
 ## Results
 
-The redesign spanned the period in which Sittax grew from 1,000 to 6,000 customer firms. In 2025, with the new experience of Sittax Simples, its main product, I contributed to a platform that saved customers 255,000 hours of work and avoided R$504 million in improper taxes, according to Sittax.
+The redesign spanned the period in which Sittax grew from 1,000 to 6,000 customer firms. In 2025, the year the new Sittax Simples main dashboard launched, I contributed to a platform that saved customers 255,000 hours of work and avoided R$504 million in improper taxes, according to Sittax.
+
+In 2026, tax calculation, the core step of the product, gets an improved version built on the same approach.
 
 ## What I'd do differently
 
