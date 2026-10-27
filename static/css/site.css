@@ -1,5 +1,5 @@
 /* Leandro de Medeiros — portfolio
-   Motif: ruled ledger paper with an ink-blue margin rule, the pen color of signed tax documents. */
+   Motif: layout-grid columns behind the hero, the structure designers work on. */
 
 :root {
   --paper: #F3F5F7;
@@ -11,6 +11,7 @@
   --ledger-ink: #FFFFFF;
   --ledger-soft: #E6EBF7;
   --line: rgba(19, 35, 58, .09);
+  --col: rgba(36, 71, 179, .045);
   --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --text: "Source Serif 4", Georgia, serif;
   --wrap: 1120px;
@@ -28,6 +29,7 @@
     --ledger-ink: #0F1722;
     --ledger-soft: #1A2440;
     --line: rgba(231, 236, 242, .07);
+    --col: rgba(147, 169, 242, .035);
     color-scheme: dark;
   }
 }
@@ -35,6 +37,7 @@
   --paper: #0F1722; --surface: #152131; --ink: #E7ECF2; --muted: #9AA7B6;
   --rule: #26354A; --ledger: #93A9F2; --ledger-ink: #0F1722; --ledger-soft: #1A2440;
   --line: rgba(231, 236, 242, .07);
+  --col: rgba(147, 169, 242, .035);
   color-scheme: dark;
 }
 
@@ -80,29 +83,33 @@ p { margin: 0 0 1em; }
 .btn-quiet { background: transparent; color: var(--ink); border-color: var(--rule); }
 .btn-quiet:hover { color: var(--ink); border-color: var(--ink); filter: none; }
 
-/* Hero: ledger paper */
+/* Hero: layout-grid columns, like a design canvas */
 .hero {
-  --row: clamp(2.6rem, 6.4vw, 5.2rem);
   background-color: var(--surface);
-  background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(var(--row) - 1px), var(--line) calc(var(--row) - 1px), var(--line) var(--row));
   border-bottom: 1px solid var(--rule);
-  padding: calc(var(--row) * 1.25) 0 calc(var(--row) * 1);
+  padding-block: clamp(56px, 9vw, 120px);
+  overflow: hidden;
 }
-.hero-inner { position: relative; padding-left: calc(var(--gutter) + 28px); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(32px, 5vw, 72px); align-items: center; }
+.hero-inner { --cols: 12; --col-gap: 24px; position: relative; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(32px, 5vw, 72px); align-items: center; }
+.hero-inner::before {
+  content: ""; position: absolute; z-index: 0; pointer-events: none;
+  top: -200px; bottom: -200px; left: var(--gutter); right: var(--gutter);
+  background-image: repeating-linear-gradient(to right,
+    var(--col) 0, var(--col) calc((100% - (var(--cols) - 1) * var(--col-gap)) / var(--cols)),
+    transparent calc((100% - (var(--cols) - 1) * var(--col-gap)) / var(--cols)),
+    transparent calc((100% - (var(--cols) - 1) * var(--col-gap)) / var(--cols) + var(--col-gap)));
+}
+.hero-text, .hero-portrait { position: relative; z-index: 1; }
 .hero-text { min-width: 0; }
 .hero-portrait { width: clamp(200px, 22vw, 280px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 6px solid var(--surface); box-shadow: 0 0 0 1px var(--rule); }
-.hero-inner::before {
-  content: ""; position: absolute; top: -100vh; bottom: -100vh; left: var(--gutter);
-  width: 7px; border-left: 2px solid var(--ledger); border-right: 2px solid var(--ledger); opacity: .55;
-}
-.hero { overflow: hidden; }
 .hero h1 {
   font-size: clamp(2.3rem, 5.6vw, 4.5rem);
-  line-height: var(--row);
+  line-height: 1.05;
   font-weight: 600;
   letter-spacing: -0.025em;
   max-width: 15ch;
-  margin-bottom: calc(var(--row) * .5);
+  margin-bottom: 1.6rem;
+  text-wrap: balance;
   font-variation-settings: "opsz" 96;
 }
 .hero-intro { max-width: 60ch; font-size: clamp(1.1rem, 1.6vw, 1.3rem); color: var(--ink); }
@@ -220,11 +227,11 @@ section { scroll-margin-top: 80px; }
 @media (max-width: 860px) {
   .case-link, .ai-grid, .footer-grid, .hero-inner { grid-template-columns: 1fr; }
   .hero-portrait { order: -1; width: 140px; }
+  .hero-inner { --cols: 4; --col-gap: 16px; }
   .timeline li { grid-template-columns: 1fr; gap: 4px; }
 }
 @media (max-width: 520px) {
   body { font-size: 1.0625rem; }
   .about-cols { grid-template-columns: 1fr; }
-  .hero-inner { padding-left: calc(var(--gutter) + 18px); }
   .site-header ul { gap: 4px 14px; font-size: .9rem; }
 }

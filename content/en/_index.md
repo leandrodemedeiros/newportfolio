@@ -20,7 +20,7 @@ ai:
     - title: "Documentation that keeps up with the product"
       text: "The design system documentation is generated and updated with AI, so the team reads something that matches what's in production."
     - title: "Human review where mistakes are expensive"
-      text: "Tax workflows have exceptions AI doesn't know about. I review error states, edge cases and accessibility before anything goes to development."
+      text: "Complex business rules have exceptions AI doesn't know about. I review error states, edge cases and accessibility before anything goes to development."
 career:
   - years: "2024 to present"
     role: "Senior UX Designer"

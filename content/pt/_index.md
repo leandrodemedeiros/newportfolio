@@ -20,7 +20,7 @@ ai:
     - title: "Documentação que acompanha o produto"
       text: "A documentação do design system é gerada e atualizada com IA, então o time consulta algo que reflete o que está em produção."
     - title: "Revisão humana onde o erro custa caro"
-      text: "Fluxos fiscais têm exceções que a IA não conhece. Reviso estados de erro, casos de borda e acessibilidade antes de ir para o desenvolvimento."
+      text: "Regras de negócio complexas têm exceções que a IA não conhece. Reviso estados de erro, casos de borda e acessibilidade antes de ir para o desenvolvimento."
 career:
   - years: "2024 até hoje"
     role: "Senior UX Designer"
