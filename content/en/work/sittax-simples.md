@@ -54,6 +54,4 @@ The redesign spanned the period in which Sittax grew from 1,000 to 6,000 custome
 
 ## What I'd do differently
 
-{{< todo >}}
-Translate from the Portuguese version once it's complete.
-{{< /todo >}}
+I would negotiate more time for discovery. A considerable share of the effort went into changing the final prototypes based on user testing, and some of those changes could have been caught earlier with deeper research at the start.

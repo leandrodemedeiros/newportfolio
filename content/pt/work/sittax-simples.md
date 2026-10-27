@@ -62,6 +62,4 @@ Confirme quando a nova experiência foi ao ar. Se foi antes ou no início de 202
 
 ## O que eu faria diferente
 
-{{< todo >}}
-Uma ou duas frases honestas sobre o que você mudaria hoje. Mostra maturidade.
-{{< /todo >}}
+Eu negociaria mais tempo para aprofundar o discovery. Boa parte do esforço foi gasta ajustando os protótipos finais a partir dos testes com usuários, e parte desses ajustes poderia ter sido antecipada com uma investigação mais longa no começo.
