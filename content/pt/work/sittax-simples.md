@@ -40,7 +40,7 @@ O objetivo do redesign foi tirar esse trabalho das planilhas. O produto passou a
 - Reorganizei a arquitetura de informação: navegação, busca, rotulação e os padrões de interface do produto.
 - Redesenhei os fluxos e a interface, apoiado no design system que criei para os 6 produtos da empresa.
 
-{{< shot src="img/cases/sittax-simples-apuracao.jpg" alt="Tela de apuração do Sittax Simples com o valor do DAS calculado pelo Sittax e pelos XMLs, a economia gerada, a receita líquida, a auditoria de pendências e o percentual da receita por imposto" caption="Versão melhorada da Apuração, a tela central do produto, prevista para 2026: o DAS calculado pelo Sittax lado a lado com o cálculo pelas notas XML, a economia gerada, a auditoria das pendências da empresa e o peso de cada imposto na receita. Nome da empresa substituído por um exemplo." >}}
+{{< shot src="img/cases/sittax-simples-apuracao.jpg" alt="Tela de apuração do Sittax Simples com o valor do DAS calculado pelo Sittax e pelos XMLs, a economia gerada, a receita líquida, a auditoria de pendências e o percentual da receita por imposto" caption="Versão melhorada da Apuração, a tela central do produto, lançada em 2026: o DAS calculado pelo Sittax lado a lado com o cálculo pelas notas XML, a economia gerada, a auditoria das pendências da empresa e o peso de cada imposto na receita. Nome da empresa substituído por um exemplo." >}}
 
 {{< todo >}}
 A legenda descreve o que a tela mostra. Se puder, conte em uma frase o que mudou em relação à versão anterior ou por que o painel foi organizado assim. Uma tela de antes, ou de outro fluxo importante, também ajudaria.
@@ -56,7 +56,7 @@ Esse foi o trabalho constante em todo o produto: quando a informação era muita
 
 O redesign acompanhou o período em que a Sittax passou de mil para 6 mil clientes. Em 2025, ano em que o novo painel principal do Sittax Simples foi lançado, contribuí para que a plataforma economizasse 255 mil horas de trabalho dos clientes e evitasse R$ 504 milhões em impostos indevidos, segundo a própria Sittax.
 
-Em 2026, a Apuração, etapa central do produto, ganha uma versão melhorada com a mesma abordagem.
+Em 2026, a Apuração, etapa central do produto, ganhou uma versão melhorada com a mesma abordagem.
 
 ## O que eu faria diferente
 
