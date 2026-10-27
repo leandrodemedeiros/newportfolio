@@ -1,7 +1,7 @@
 ---
 slug: "design-system"
-title: "Mandala DS: um design system para 6 produtos, documentado com IA"
-summary: "Criei e mantenho o Mandala DS, design system da Sittax, com componentes, tokens e documentação automatizada com o Claude, para que qualquer pessoa do time construa telas no mesmo padrão."
+title: "Mandala DS: um design system para 6 produtos, especificado com IA"
+summary: "Criei e mantenho o Mandala DS, design system da Sittax, com componentes, tokens e especificações de tela feitas com IA, para que qualquer pessoa do time construa telas no mesmo padrão."
 company: "Sittax"
 role: "Senior UX Designer"
 period: "2024 até hoje"
@@ -27,12 +27,12 @@ A Sittax tem 6 produtos para escritórios de contabilidade e profissionais da á
 
 - **Tokens e componentes.** Defini tokens de cor, tipografia e espaçamento e uma biblioteca de componentes reutilizáveis, com atenção especial aos padrões que mais aparecem em software fiscal: formulários, navegação e apresentação de dados em tabelas.
 - **UI kit.** Montei o UI kit no Figma como fonte única de verdade para design e desenvolvimento.
-- **Documentação automatizada com IA.** Usei o Claude para gerar e manter a documentação do sistema, de modo que ela acompanhe o que está em produção em vez de ficar desatualizada.
+- **Especificações de tela com IA.** Uso o Claude junto com o Figma e o Notion para produzir as especificações das telas que vão para o desenvolvimento. A documentação completa do sistema está sendo escrita com o mesmo processo.
 
 {{< shot src="img/cases/mandala-menu-temas.jpg" alt="Menu lateral do Sittax Simples nas versões clara e escura, com os mesmos itens e ícones" caption="O mesmo componente de menu nos temas claro e escuro, gerados a partir das mesmas variáveis." >}}
 
 {{< todo >}}
-As duas imagens têm só 600 px de largura e ficam um pouco borradas em telas grandes. Se puder, exporte em 2x (1600 px ou mais). Também vale explicar em 2 ou 3 frases como funciona o fluxo de documentação com o Claude: o que entra, o que sai e quem usa.
+As duas imagens têm só 600 px de largura e ficam um pouco borradas em telas grandes. Se puder, exporte em 2x (1600 px ou mais). Um print de uma especificação de tela no Notion ajudaria muito, junto com 2 ou 3 frases sobre o fluxo: o que sai do Figma, o que o Claude faz e quem usa a especificação no Notion.
 {{< /todo >}}
 
 ## Por que isso importa agora

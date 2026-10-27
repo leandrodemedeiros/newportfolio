@@ -1,7 +1,7 @@
 ---
 slug: "design-system"
-title: "Mandala DS: one design system for 6 products, documented with AI"
-summary: "I built and maintain Mandala DS, the Sittax design system, with components, tokens and documentation automated with Claude, so anyone on the team can build screens to the same standard."
+title: "Mandala DS: one design system for 6 products, specified with AI"
+summary: "I built and maintain Mandala DS, the Sittax design system, with components, tokens and screen specifications produced with AI, so anyone on the team can build screens to the same standard."
 company: "Sittax"
 role: "Senior UX Designer"
 period: "2024 to present"
@@ -27,7 +27,7 @@ Sittax has 6 products for accounting firms and tax professionals. To keep them c
 
 - **Tokens and components.** I defined color, type and spacing tokens and a library of reusable components, with special attention to the patterns tax software relies on most: forms, navigation and data tables.
 - **UI kit.** I built the UI kit in Figma as the single source of truth for design and engineering.
-- **Documentation automated with AI.** I use Claude to generate and maintain the system's documentation, so it keeps up with what's in production instead of going stale.
+- **Screen specifications with AI.** I use Claude together with Figma and Notion to produce the specifications for screens that go to engineering. The system's full documentation is being written with the same process.
 
 {{< shot src="img/cases/mandala-menu-temas.jpg" alt="Sittax Simples side menu in light and dark versions, with the same items and icons" caption="The same menu component in light and dark themes, generated from the same variables." >}}
 

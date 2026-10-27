@@ -11,14 +11,14 @@ hero:
 ai:
   title: "Design com IA"
   text: |
-    Uso IA para acelerar o que é repetitivo e gastar mais tempo no que exige julgamento. Criei o UI kit e a documentação automatizada do design system da Sittax com o Claude, para que telas geradas por qualquer pessoa do time partam dos mesmos componentes e regras.
+    Uso IA para acelerar o que é repetitivo e gastar mais tempo no que exige julgamento. Criei o UI kit da Sittax e faço as especificações de tela com Claude, Figma e Notion, para que telas geradas por qualquer pessoa do time partam dos mesmos componentes e regras.
 
     A IA produz uma tela plausível em segundos. O meu trabalho é garantir que ela seja a tela certa: coerente com o resto do produto, acessível e fiel às regras do negócio.
   practices:
     - title: "Sistema primeiro, geração depois"
       text: "Tokens, componentes e padrões documentados viram o contexto que a IA segue. Sem isso, cada tela gerada inventa o próprio visual."
-    - title: "Documentação que acompanha o produto"
-      text: "A documentação do design system é gerada e atualizada com IA, então o time consulta algo que reflete o que está em produção."
+    - title: "Especificações que acompanham o design"
+      text: "As especificações de tela são feitas com IA a partir do que está no Figma, então o desenvolvimento recebe algo fiel ao que foi desenhado."
     - title: "Revisão humana onde o erro custa caro"
       text: "Regras de negócio complexas têm exceções que a IA não conhece. Reviso estados de erro, casos de borda e acessibilidade antes de ir para o desenvolvimento."
 career:
