@@ -7,6 +7,7 @@ role: "UX Designer and team lead"
 period: "2010 to 2022"
 team: "5-person design team, which I led for 3 years"
 cover: "suite"
+image: "img/cases/lg-fluxos.jpg"
 weight: 4
 metrics:
   - value: "7"

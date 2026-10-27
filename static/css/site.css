@@ -168,6 +168,7 @@ section { scroll-margin-top: 80px; }
 .case-link { display: grid; grid-template-columns: minmax(0, 6fr) minmax(0, 5fr); gap: clamp(20px, 4vw, 48px); align-items: center; text-decoration: none; }
 .case-cover { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--rule); background: var(--surface); }
 .case-cover img, .case-cover svg { width: 100%; height: auto; display: block; }
+.case-cover img { aspect-ratio: 16 / 10; object-fit: cover; object-position: top left; }
 .case-meta { font-family: var(--display); font-size: .95rem; color: var(--muted); margin-bottom: .5rem; }
 .case-meta a { color: var(--muted); }
 .case-text h3 { font-size: clamp(1.45rem, 2.6vw, 2rem); font-weight: 600; margin-bottom: .75rem; }

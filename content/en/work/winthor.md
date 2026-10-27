@@ -7,6 +7,7 @@ role: "Senior Product Designer"
 period: "2023 to 2024"
 team: "Cross-functional product team"
 cover: "map"
+image: "img/cases/winthor-produtos.jpg"
 weight: 3
 metrics:
   - value: "30+"

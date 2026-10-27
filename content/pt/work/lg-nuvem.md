@@ -7,6 +7,7 @@ role: "UX Designer e líder de equipe"
 period: "2010 a 2022"
 team: "Equipe de design de 5 pessoas, que liderei por 3 anos"
 cover: "suite"
+image: "img/cases/lg-fluxos.jpg"
 weight: 4
 metrics:
   - value: "7"

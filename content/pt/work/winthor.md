@@ -7,6 +7,7 @@ role: "Senior Product Designer"
 period: "2023 a 2024"
 team: "Time multidisciplinar de produto"
 cover: "map"
+image: "img/cases/winthor-produtos.jpg"
 weight: 3
 metrics:
   - value: "30+"
