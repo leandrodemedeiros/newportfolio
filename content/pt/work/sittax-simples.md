@@ -49,10 +49,10 @@ Esta é a seção que recrutadores mais valorizam. Conte uma decisão difícil: 
 
 ## Resultado
 
-Em 2025, segundo a própria Sittax, a tecnologia da empresa economizou 255 mil horas de trabalho dos clientes e evitou R$ 504 milhões em impostos indevidos. A plataforma chegou a 6 mil clientes e 15 mil usuários, e o Sittax Simples é o seu principal produto.
+Fui o único designer da Sittax durante todo o período em que a empresa saiu de mil para 6 mil clientes. Em 2025, com a nova experiência do Sittax Simples, seu principal produto, a plataforma economizou 255 mil horas de trabalho dos clientes e evitou R$ 504 milhões em impostos indevidos, segundo a própria Sittax.
 
 {{< todo >}}
-Esses números são da Sittax como um todo, publicados na página "Quem somos" do site da empresa. Se você tiver algum dado específico do Sittax Simples ou do redesign (por exemplo, menos chamados de suporte ou menos tempo por apuração), ele vale ainda mais aqui.
+Confirme quando a nova experiência foi ao ar. Se foi antes ou no início de 2025, dá para escrever "com a nova experiência no ar durante todo o ano". Um dado específico do redesign (menos chamados de suporte, menos tempo por apuração) fortaleceria ainda mais.
 {{< /todo >}}
 
 ## O que eu faria diferente

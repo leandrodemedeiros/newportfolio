@@ -45,7 +45,7 @@ Translate from the Portuguese version once it's complete.
 
 ## Results
 
-In 2025, according to Sittax, the company's technology saved customers 255,000 hours of work and avoided R$504 million in improper taxes. The platform reached 6,000 customer firms and 15,000 users, and Sittax Simples is its main product.
+I was Sittax's only designer throughout the period in which the company grew from 1,000 to 6,000 customer firms. In 2025, with the new experience of Sittax Simples, its main product, the platform saved customers 255,000 hours of work and avoided R$504 million in improper taxes, according to Sittax.
 
 ## What I'd do differently
 

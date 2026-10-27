@@ -5,7 +5,7 @@ hero:
   title: "I make enterprise, management and ERP software simple to use."
   intro: |
     I'm Leandro, a senior product designer with 20 years in complex B2B products, from research to design systems.
-    Today I'm the designer at Sittax, a platform whose technology saved customers 255,000 hours of work in 2025.
+    Since 2024 I've been the only designer at Sittax, and the experience I redesigned is part of a platform that saved customers 255,000 hours of work in 2025.
   cta: "See my work"
   contact: "Get in touch"
 ai:

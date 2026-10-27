@@ -5,7 +5,7 @@ hero:
   title: "Faço software corporativo, de gestão e ERP ser simples de usar."
   intro: |
     Sou Leandro, product designer sênior com 20 anos em produtos B2B complexos, da pesquisa ao design system.
-    Hoje sou o designer da Sittax, plataforma cuja tecnologia economizou 255 mil horas de trabalho dos clientes em 2025.
+    Desde 2024 sou o único designer da Sittax, e a experiência que redesenhei faz parte de uma plataforma que economizou 255 mil horas de trabalho dos clientes em 2025.
   cta: "Ver trabalhos"
   contact: "Falar comigo"
 ai:
