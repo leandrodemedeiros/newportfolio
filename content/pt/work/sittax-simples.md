@@ -30,9 +30,9 @@ Fui responsável pelo ciclo de UX e UI do produto, da pesquisa à entrega, traba
 
 ## O problema
 
-{{< todo >}}
-Descreva em 3 a 5 frases como era a experiência antes: o que mais travava o contador, de onde vinham os chamados de suporte, onde aconteciam erros. Um dado de antes (tempo de tarefa, chamados, reclamações) fortalece muito o case.
-{{< /todo >}}
+A maior dor da apuração sempre esteve em três pontos: visualizar os dados, conferir os números e confiar no resultado antes de transmitir. Para chegar lá, o contador dependia de uma grande quantidade de planilhas para buscar as notas e calcular os impostos.
+
+O objetivo do redesign foi tirar esse trabalho das planilhas. O produto passou a buscar e calcular as notas automaticamente, sugerir ajustes quando algo não bate e permitir emitir a guia e transmitir a declaração em um clique.
 
 ## O que eu fiz
 

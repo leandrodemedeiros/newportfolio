@@ -30,9 +30,9 @@ I was responsible for the product's UX and UI, from research to delivery, workin
 
 ## The problem
 
-{{< todo >}}
-Translate from the Portuguese version once it's complete.
-{{< /todo >}}
+The biggest pain in tax calculation has always come down to three things: seeing the data clearly, checking the numbers and trusting the result before filing. To get there, accountants relied on a large number of spreadsheets to gather invoices and calculate taxes.
+
+The goal of the redesign was to take that work out of spreadsheets. The product now fetches and calculates invoices automatically, suggests adjustments when something doesn't match, and lets accountants issue the payment slip and file the return in one click.
 
 ## What I did
 
