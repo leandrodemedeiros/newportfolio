@@ -34,10 +34,8 @@ Sittax has 6 products for accounting firms and tax professionals. To keep them c
 
 With AI, anyone on the team can generate a screen in seconds. Without a documented system, every generated screen invents its own look and the product turns into a patchwork. With tokens, components and written rules, AI generates within the standard, and design review can focus on what matters: the flow, the exceptions and accessibility.
 
-## Decisions and trade-offs
-
 {{< todo >}}
-Translate from the Portuguese version once it's complete.
+**Decisions and trade-offs:** Translate from the Portuguese version once it's complete.
 {{< /todo >}}
 
 ## Results

@@ -38,10 +38,8 @@ As duas imagens têm só 600 px de largura e ficam um pouco borradas em telas gr
 
 Com IA, qualquer pessoa do time consegue gerar uma tela em segundos. Sem um sistema documentado, cada tela gerada inventa o próprio visual e o produto vira uma colcha de retalhos. Com tokens, componentes e regras escritas, a IA passa a gerar dentro do padrão, e a revisão de design se concentra no que importa: o fluxo, as exceções e a acessibilidade.
 
-## Decisões e o que ficou de fora
-
 {{< todo >}}
-Conte uma decisão: por exemplo, o que entrou primeiro no sistema e o que ficou para depois, ou como você lidou com produtos que já existiam com visuais diferentes.
+**Decisões e o que ficou de fora:** Conte uma decisão: por exemplo, o que entrou primeiro no sistema e o que ficou para depois, ou como você lidou com produtos que já existiam com visuais diferentes.
 {{< /todo >}}
 
 ## Resultado

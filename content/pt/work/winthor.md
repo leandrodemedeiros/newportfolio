@@ -32,10 +32,8 @@ Integrei o time multidisciplinar de produto, num ambiente ágil de larga escala,
 Inclua um diagrama da arquitetura (antes e depois, se possível) e uma imagem de protótipo. Se houver restrição de confidencialidade, uma versão simplificada do mapa de navegação já ajuda bastante.
 {{< /todo >}}
 
-## Decisões e o que ficou de fora
-
 {{< todo >}}
-Conte o que os testes com usuários mudaram na proposta. Exemplo: uma hipótese que caiu, ou uma diferença entre segmentos que exigiu outra organização dos menus.
+**Decisões e o que ficou de fora:** Conte o que os testes com usuários mudaram na proposta. Exemplo: uma hipótese que caiu, ou uma diferença entre segmentos que exigiu outra organização dos menus.
 {{< /todo >}}
 
 ## Resultado

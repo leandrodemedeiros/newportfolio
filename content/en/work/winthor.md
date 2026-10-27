@@ -28,10 +28,8 @@ I joined the cross-functional product team in a large-scale agile setup, contrib
 - **Research and validation.** I ran usability tests and ideation sessions with more than 30 users from different market segments, across 3 prototype fidelity levels. These tests informed the product decisions.
 - **Design system.** I contributed to updating and evolving Animália, the design system used across all TOTVS products.
 
-## Decisions and trade-offs
-
 {{< todo >}}
-Translate from the Portuguese version once it's complete.
+**Decisions and trade-offs:** Translate from the Portuguese version once it's complete.
 {{< /todo >}}
 
 ## Results

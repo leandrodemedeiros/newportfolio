@@ -26,14 +26,11 @@ LG builds one of Brazil's leading payroll systems, used by large companies such 
 - **Employee self-service portal.** I recreated the employee portal, one of the most used parts of the product, for the new model.
 - **Design culture.** For 3 years I led the design team, handling training and task distribution, and brought Design Thinking, Design Sprints and agile methods into the company's process.
 
-## Decisions and trade-offs
-
 {{< todo >}}
-Translate from the Portuguese version once it's complete.
+**Decisions and trade-offs:** Translate from the Portuguese version once it's complete.
 {{< /todo >}}
 
-## Results
-
 {{< todo >}}
-Translate from the Portuguese version once it's complete.
+**Results:** Translate from the Portuguese version once it's complete.
 {{< /todo >}}
+

@@ -30,14 +30,11 @@ A LG desenvolve um dos principais softwares de folha de pagamento do Brasil, usa
 Inclua imagens do portal de autoatendimento (antes e depois) e, se possível, uma foto ou registro de uma sessão de ideação. O case antigo no Medium sobre o portal pode ter material que dá para reaproveitar.
 {{< /todo >}}
 
-## Decisões e o que ficou de fora
-
 {{< todo >}}
-Conte um momento em que a necessidade de um grande cliente conflitava com a de outros, ou em que a migração exigiu abrir mão de algo do produto antigo.
+**Decisões e o que ficou de fora:** Conte um momento em que a necessidade de um grande cliente conflitava com a de outros, ou em que a migração exigiu abrir mão de algo do produto antigo.
 {{< /todo >}}
 
-## Resultado
-
 {{< todo >}}
-Inclua o que mudou depois da migração: adoção do portal, redução de chamados, tempo de implantação ou feedback dos clientes. Mesmo um dado aproximado ajuda.
+**Resultado:** Inclua o que mudou depois da migração: adoção do portal, redução de chamados, tempo de implantação ou feedback dos clientes. Mesmo um dado aproximado ajuda.
 {{< /todo >}}
+
