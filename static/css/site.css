@@ -12,6 +12,9 @@
   --ledger-soft: #E6EBF7;
   --line: rgba(19, 35, 58, .09);
   --col: rgba(36, 71, 179, .045);
+  --sel: #2F6BEA;
+  --sel-ink: #FFFFFF;
+  --cursor: #C2255C;
   --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --text: "Source Serif 4", Georgia, serif;
   --wrap: 1120px;
@@ -30,6 +33,9 @@
     --ledger-soft: #1A2440;
     --line: rgba(231, 236, 242, .07);
     --col: rgba(147, 169, 242, .035);
+    --sel: #6E9BFF;
+    --sel-ink: #0F1722;
+    --cursor: #E64980;
     color-scheme: dark;
   }
 }
@@ -38,6 +44,7 @@
   --rule: #26354A; --ledger: #93A9F2; --ledger-ink: #0F1722; --ledger-soft: #1A2440;
   --line: rgba(231, 236, 242, .07);
   --col: rgba(147, 169, 242, .035);
+  --sel: #6E9BFF; --sel-ink: #0F1722; --cursor: #E64980;
   color-scheme: dark;
 }
 
@@ -99,9 +106,42 @@ p { margin: 0 0 1em; }
     transparent calc((100% - (var(--cols) - 1) * var(--col-gap)) / var(--cols)),
     transparent calc((100% - (var(--cols) - 1) * var(--col-gap)) / var(--cols) + var(--col-gap)));
 }
-.hero-text, .hero-portrait { position: relative; z-index: 1; }
+.hero-text, .canvas-photo { position: relative; z-index: 1; }
 .hero-text { min-width: 0; }
-.hero-portrait { width: clamp(200px, 22vw, 280px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 6px solid var(--surface); box-shadow: 0 0 0 1px var(--rule); }
+
+/* Canvas annotations: a frame around the text, a selected image layer, a collaborator cursor */
+.hero-text::before {
+  content: ""; position: absolute; inset: -22px -24px; pointer-events: none;
+  border: 1.5px dashed var(--sel); opacity: .5; border-radius: 2px;
+}
+.frame-name, .layer-name {
+  position: absolute; font-family: var(--display); font-size: .75rem; font-weight: 500; line-height: 1;
+  white-space: nowrap;
+}
+.frame-name { top: -44px; left: -24px; color: var(--muted); }
+.fn-mobile { display: none; }
+
+.canvas-photo { margin: 0; display: grid; justify-items: center; gap: 10px; }
+.selection { position: relative; outline: 1.5px solid var(--sel); outline-offset: 0; }
+.layer-name { top: -20px; left: 0; color: var(--sel); }
+.hero-portrait { display: block; width: clamp(200px, 22vw, 280px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; }
+.handle { position: absolute; width: 9px; height: 9px; background: var(--surface); border: 1.5px solid var(--sel); }
+.handle.tl { top: -5px; left: -5px; } .handle.tr { top: -5px; right: -5px; }
+.handle.bl { bottom: -5px; left: -5px; } .handle.br { bottom: -5px; right: -5px; }
+.dimensions {
+  background: var(--sel); color: var(--sel-ink); font-family: var(--display); font-size: .72rem; font-weight: 600;
+  padding: 3px 7px; border-radius: 4px; font-variant-numeric: tabular-nums; line-height: 1.2;
+}
+.cursor { position: absolute; left: 26px; bottom: 10%; display: flex; align-items: flex-start; pointer-events: none; }
+.cursor svg { fill: var(--cursor); stroke: var(--surface); stroke-width: 1.2; flex: none; filter: drop-shadow(0 1px 1px rgba(0, 0, 0, .18)); }
+.cursor-tag {
+  margin: 14px 0 0 -2px; background: var(--cursor); color: #FFFFFF; font-family: var(--display);
+  font-size: .75rem; font-weight: 600; padding: 3px 8px; border-radius: 4px 10px 10px 10px; line-height: 1.2;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .cursor { animation: cursor-arrive 1.1s cubic-bezier(.2, .7, .2, 1) .5s both; }
+  @keyframes cursor-arrive { from { transform: translate(-70px, 60px); opacity: 0; } to { transform: none; opacity: 1; } }
+}
 .hero h1 {
   font-size: clamp(2.3rem, 5.6vw, 4.5rem);
   line-height: 1.05;
@@ -226,7 +266,13 @@ section { scroll-margin-top: 80px; }
 /* Responsive */
 @media (max-width: 860px) {
   .case-link, .ai-grid, .footer-grid, .hero-inner { grid-template-columns: 1fr; }
-  .hero-portrait { order: -1; width: 140px; }
+  .canvas-photo { order: -1; justify-items: start; margin-top: 20px; }
+  .hero-portrait { width: 140px; }
+  .cursor { left: 168px; bottom: 34%; }
+  .hero-text { margin-top: 28px; }
+  .hero-text::before { inset: -18px -10px; }
+  .frame-name { top: -36px; left: -10px; }
+  .fn-desktop { display: none; } .fn-mobile { display: inline; }
   .hero-inner { --cols: 4; --col-gap: 16px; }
   .timeline li { grid-template-columns: 1fr; gap: 4px; }
 }

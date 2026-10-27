@@ -4,16 +4,42 @@
 <section class="hero">
   <div class="wrap hero-inner">
     <div class="hero-text">
-    <h1>{{ $p.hero.title }}</h1>
-    <div class="hero-intro">{{ $p.hero.intro | markdownify }}</div>
-    <p class="hero-actions">
-      <a class="btn" href="#trabalhos">{{ $p.hero.cta }}</a>
-      <a class="btn btn-quiet" href="#contato">{{ $p.hero.contact }}</a>
-    </p>
+      <span class="frame-name" aria-hidden="true"><span class="fn-desktop">Hero / Desktop</span><span class="fn-mobile">Hero / Mobile</span></span>
+      <h1>{{ $p.hero.title }}</h1>
+      <div class="hero-intro">{{ $p.hero.intro | markdownify }}</div>
+      <p class="hero-actions">
+        <a class="btn" href="#trabalhos">{{ $p.hero.cta }}</a>
+        <a class="btn btn-quiet" href="#contato">{{ $p.hero.contact }}</a>
+      </p>
     </div>
-    <img class="hero-portrait" src="{{ .Site.Params.photo | relURL }}" alt="{{ $p.about.photoAlt }}" width="280" height="280">
+    <figure class="canvas-photo">
+      <div class="selection">
+        <span class="layer-name" aria-hidden="true">foto-leandro.jpg</span>
+        <img class="hero-portrait" src="{{ .Site.Params.photo | relURL }}" alt="{{ $p.about.photoAlt }}" width="280" height="280">
+        <i class="handle tl" aria-hidden="true"></i><i class="handle tr" aria-hidden="true"></i><i class="handle bl" aria-hidden="true"></i><i class="handle br" aria-hidden="true"></i>
+      </div>
+      <span class="dimensions" aria-hidden="true">280 × 280</span>
+      <span class="cursor" aria-hidden="true">
+        <svg viewBox="0 0 16 20" width="20" height="25"><path d="M1 1l13.5 8.2-6.2 1.3-3.1 5.8z"/></svg>
+        <span class="cursor-tag">Leandro</span>
+      </span>
+    </figure>
   </div>
 </section>
+<script>
+  (function () {
+    var img = document.querySelector('.hero-portrait');
+    var dim = document.querySelector('.dimensions');
+    if (!img || !dim) return;
+    function update() {
+      var w = Math.round(img.getBoundingClientRect().width);
+      if (w) dim.textContent = w + ' × ' + w;
+    }
+    update();
+    window.addEventListener('resize', update);
+    img.addEventListener('load', update);
+  })();
+</script>
 
 <section class="work" id="trabalhos" aria-labelledby="work-title">
   <div class="wrap">
