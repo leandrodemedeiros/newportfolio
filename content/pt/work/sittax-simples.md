@@ -39,6 +39,7 @@ O objetivo do redesign foi tirar esse trabalho das planilhas. O produto passou a
 - Conduzi a pesquisa com usuários: entrevistas, dinâmicas de discovery, análise de dados e testes de usabilidade com protótipos navegáveis.
 - Reorganizei a arquitetura de informação: navegação, busca, rotulação e os padrões de interface do produto.
 - Redesenhei os fluxos e a interface, apoiado no design system que criei para os 6 produtos da empresa.
+- Introduzi a especificação funcional (FSD) como padrão de documentação das telas, feita com Claude, Figma e Notion, para facilitar o handoff para as equipes de desenvolvimento e testes.
 
 {{< shot src="img/cases/sittax-simples-apuracao.jpg" alt="Tela de apuração do Sittax Simples com o valor do DAS calculado pelo Sittax e pelos XMLs, a economia gerada, a receita líquida, a auditoria de pendências e o percentual da receita por imposto" caption="Versão melhorada da Apuração, a tela central do produto, lançada em 2026: o DAS calculado pelo Sittax lado a lado com o cálculo pelas notas XML, a economia gerada, a auditoria das pendências da empresa e o peso de cada imposto na receita. Nome da empresa substituído por um exemplo." >}}
 

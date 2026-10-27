@@ -39,6 +39,7 @@ The goal of the redesign was to take that work out of spreadsheets. The product 
 - Ran user research: interviews, discovery sessions, data analysis and usability tests with clickable prototypes.
 - Reorganized the information architecture: navigation, search, labeling and the product's interface patterns.
 - Redesigned the flows and interface, built on the design system I created for the company's 6 products.
+- Introduced the functional specification document (FSD) as the standard for documenting screens, produced with Claude, Figma and Notion, to make handoff to engineering and QA easier.
 
 {{< shot src="img/cases/sittax-simples-apuracao.jpg" alt="Sittax Simples tax calculation screen with the DAS amount calculated by Sittax and from XML invoices, the savings, net revenue, the audit checklist and each tax's share of revenue" caption="Improved version of tax calculation, the core screen of the product, launched in 2026: the DAS amount calculated by Sittax side by side with the calculation from XML invoices, the savings, an audit of the company's pending issues and each tax's share of revenue. Company name replaced with an example." >}}
 
