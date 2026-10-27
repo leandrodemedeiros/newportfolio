@@ -303,5 +303,14 @@ section { scroll-margin-top: 80px; }
 @media (max-width: 520px) {
   body { font-size: 1.0625rem; }
   .about-cols { grid-template-columns: 1fr; }
-  .site-header ul { gap: 4px 14px; font-size: .9rem; }
+  .header-row { row-gap: 2px; }
+  .site-header nav { width: 100%; }
+  .site-header ul { flex-wrap: nowrap; justify-content: space-between; gap: 8px; font-size: .9rem; }
+  .theme-toggle { width: 32px; height: 32px; }
+}
+@media (max-width: 380px) {
+  .site-header ul { font-size: .84rem; gap: 4px; }
+}
+@media (max-width: 340px) {
+  .site-header .nav-cv { display: none; }
 }
