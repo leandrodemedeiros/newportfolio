@@ -1,11 +1,11 @@
 ---
 title: "Home"
-description: "Senior product designer with 20 years in complex B2B software: tax, payroll and ERP."
+description: "Senior product designer with 20 years in complex B2B software: management, finance and ERP."
 hero:
-  title: "I make tax, payroll and ERP software simple to use."
+  title: "I make enterprise, management and ERP software simple to use."
   intro: |
     I'm Leandro, a senior product designer with 20 years in complex B2B products, from research to design systems.
-    At Sittax, I redesigned the product experience that helped customers save more than 255,000 hours of work in 2025.
+    Today I'm the designer at Sittax, a platform whose technology saved customers 255,000 hours of work in 2025.
   cta: "See my work"
   contact: "Get in touch"
 ai:

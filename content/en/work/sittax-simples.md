@@ -1,6 +1,6 @@
 ---
 slug: "sittax-simples"
-title: "How I redesigned the tax tool used by 15,000 people"
+title: "How I redesigned the core product of a tax platform with 15,000 users"
 summary: "As the product's sole designer, I redefined the whole experience of Sittax Simples, a tool that automates tax calculation for small businesses under Brazil's Simples Nacional regime."
 company: "Sittax"
 role: "Senior UX Designer, sole designer"
@@ -10,13 +10,13 @@ cover: "ledger"
 weight: 1
 metrics:
   - value: "255k"
-    label: "hours of work saved by customers in 2025"
+    label: "hours of work saved by Sittax customers in 2025"
   - value: "R$504M"
-    label: "in overpaid taxes avoided by customers in 2025"
+    label: "in improper taxes avoided by Sittax customers in 2025"
   - value: "6,000"
-    label: "customer firms"
+    label: "active customer firms on the platform"
   - value: "15,000"
-    label: "active users"
+    label: "users on the platform"
 ---
 
 ## Context
@@ -45,7 +45,7 @@ Translate from the Portuguese version once it's complete.
 
 ## Results
 
-In 2025, Sittax Simples customers saved more than 255,000 hours of work and avoided R$504 million in overpaid taxes. The product serves more than 6,000 customer firms and 15,000 active users.
+In 2025, according to Sittax, the company's technology saved customers 255,000 hours of work and avoided R$504 million in improper taxes. The platform reached 6,000 customer firms and 15,000 users, and Sittax Simples is its main product.
 
 ## What I'd do differently
 

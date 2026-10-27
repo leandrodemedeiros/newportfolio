@@ -1,11 +1,11 @@
 ---
 title: "Início"
-description: "Product designer sênior com 20 anos em software B2B complexo: fiscal, folha de pagamento e ERP."
+description: "Product designer sênior com 20 anos em software B2B complexo: gestão, finanças e ERP."
 hero:
-  title: "Faço software fiscal, de folha e ERP ser simples de usar."
+  title: "Faço software corporativo, de gestão e ERP ser simples de usar."
   intro: |
     Sou Leandro, product designer sênior com 20 anos em produtos B2B complexos, da pesquisa ao design system.
-    Na Sittax, redesenhei a experiência do produto que ajudou clientes a economizar mais de 255 mil horas de trabalho em 2025.
+    Hoje sou o designer da Sittax, plataforma cuja tecnologia economizou 255 mil horas de trabalho dos clientes em 2025.
   cta: "Ver trabalhos"
   contact: "Falar comigo"
 ai:

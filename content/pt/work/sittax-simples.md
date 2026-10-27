@@ -1,6 +1,6 @@
 ---
 slug: "sittax-simples"
-title: "Como redesenhei a apuração fiscal usada por 15 mil pessoas"
+title: "Como redesenhei o principal produto de uma plataforma fiscal com 15 mil usuários"
 summary: "Redefini toda a experiência do Sittax Simples, ferramenta que automatiza a apuração fiscal de empresas do Simples Nacional, como designer único do produto."
 company: "Sittax"
 role: "Senior UX Designer, designer único"
@@ -10,13 +10,13 @@ cover: "ledger"
 weight: 1
 metrics:
   - value: "255 mil"
-    label: "horas de trabalho economizadas pelos clientes em 2025"
+    label: "horas de trabalho economizadas pelos clientes da Sittax em 2025"
   - value: "R$ 504 mi"
-    label: "em impostos pagos indevidamente evitados pelos clientes em 2025"
+    label: "em impostos indevidos evitados pelos clientes da Sittax em 2025"
   - value: "6 mil"
-    label: "clientes atendidos pelo produto"
+    label: "clientes ativos na plataforma"
   - value: "15 mil"
-    label: "usuários ativos"
+    label: "usuários na plataforma"
 ---
 
 ## Contexto
@@ -49,10 +49,10 @@ Esta é a seção que recrutadores mais valorizam. Conte uma decisão difícil: 
 
 ## Resultado
 
-Em 2025, os clientes do Sittax Simples economizaram mais de 255 mil horas de trabalho e evitaram R$ 504 milhões em impostos pagos indevidamente. O produto atende mais de 6 mil clientes e 15 mil usuários ativos.
+Em 2025, segundo a própria Sittax, a tecnologia da empresa economizou 255 mil horas de trabalho dos clientes e evitou R$ 504 milhões em impostos indevidos. A plataforma chegou a 6 mil clientes e 15 mil usuários, e o Sittax Simples é o seu principal produto.
 
 {{< todo >}}
-Confirme se o valor de 504 milhões é em reais e se a formulação "evitaram em impostos pagos indevidamente" está correta. Antes de publicar, vale confirmar com a Sittax se esses números podem aparecer num site público.
+Esses números são da Sittax como um todo, publicados na página "Quem somos" do site da empresa. Se você tiver algum dado específico do Sittax Simples ou do redesign (por exemplo, menos chamados de suporte ou menos tempo por apuração), ele vale ainda mais aqui.
 {{< /todo >}}
 
 ## O que eu faria diferente
