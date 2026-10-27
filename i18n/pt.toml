@@ -1,0 +1,50 @@
+[nav_work]
+other = "Trabalhos"
+[nav_ai]
+other = "Design com IA"
+[nav_about]
+other = "Sobre"
+[nav_cv]
+other = "Currículo"
+[skip]
+other = "Pular para o conteúdo"
+[switch_lang]
+other = "English"
+[selected_work]
+other = "Trabalhos selecionados"
+[read_case]
+other = "Ler estudo de caso"
+[career]
+other = "Carreira"
+[about]
+other = "Sobre"
+[education]
+other = "Formação"
+[talks]
+other = "Palestras e mentorias"
+[contact_title]
+other = "Vamos conversar"
+[contact_text]
+other = "Respondo por e-mail ou LinkedIn. O currículo completo está em PDF, em português e em inglês."
+[cv_pt]
+other = "Currículo em português (PDF)"
+[cv_en]
+other = "Currículo em inglês (PDF)"
+[role]
+other = "Função"
+[company]
+other = "Empresa"
+[period]
+other = "Período"
+[team]
+other = "Time"
+[results]
+other = "Resultados"
+[next_case]
+other = "Próximo estudo de caso"
+[back_home]
+other = "Voltar para o início"
+[todo_label]
+other = "Para completar (só aparece na prévia)"
+[not_found]
+other = "Esta página não existe. Os trabalhos estão na página inicial."

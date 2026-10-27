@@ -1,0 +1,18 @@
+{{ $home := .Site.Home.RelPermalink }}
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="wordmark" href="{{ $home }}">Leandro de Medeiros</a>
+    <nav aria-label="Principal">
+      <ul>
+        <li><a href="{{ $home }}#trabalhos">{{ i18n "nav_work" }}</a></li>
+        <li><a href="{{ $home }}#ia">{{ i18n "nav_ai" }}</a></li>
+        <li><a href="{{ $home }}#sobre">{{ i18n "nav_about" }}</a></li>
+        <li><a href="{{ cond (eq .Site.Language.Lang "pt") ("cv/CV-LeandroDeMedeiros-PT.pdf" | relURL) ("cv/CV-LeandroDeMedeiros-EN.pdf" | relURL) }}">{{ i18n "nav_cv" }}</a></li>
+        {{ $other := "" }}
+        {{ range .Translations }}{{ $other = .RelPermalink }}{{ end }}
+        {{ if not $other }}{{ range .Sites }}{{ if ne .Language.Lang $.Site.Language.Lang }}{{ $other = .Home.RelPermalink }}{{ end }}{{ end }}{{ end }}
+        <li><a class="lang" href="{{ $other }}" hreflang="{{ cond (eq .Site.Language.Lang "pt") "en" "pt-BR" }}">{{ i18n "switch_lang" }}</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

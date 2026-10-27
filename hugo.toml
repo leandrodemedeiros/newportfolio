@@ -1,0 +1,33 @@
+baseURL = "https://leandrodemedeiros.com.br/"
+defaultContentLanguage = "pt"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "rss"]
+
+[languages]
+  [languages.pt]
+    languageCode = "pt-BR"
+    languageName = "Português"
+    contentDir = "content/pt"
+    weight = 1
+    title = "Leandro de Medeiros, Product Designer"
+    [languages.pt.permalinks]
+      work = "/trabalhos/:slug/"
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 2
+    title = "Leandro de Medeiros, Product Designer"
+    [languages.en.permalinks]
+      work = "/work/:slug/"
+
+[params]
+  author = "Leandro de Medeiros"
+  email = "falecom@leandrodemedeiros.com.br"
+  linkedin = "https://www.linkedin.com/in/leandromsalomao"
+  behance = "https://www.behance.net/leandrodemedeiros"
+  photo = "img/leandro.jpg"
+
+[markup.goldmark.renderer]
+  unsafe = true

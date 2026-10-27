@@ -1,0 +1,42 @@
+{{/* Schematic cover used until real screenshots are added. Pass the variant name. */}}
+{{ $v := . }}
+<svg class="cover" viewBox="0 0 640 400" role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="400" class="c-bg"/>
+  {{ if eq $v "ledger" }}
+    <rect x="48" y="48" width="544" height="304" rx="8" class="c-card"/>
+    <rect x="72" y="72" width="180" height="14" rx="3" class="c-ink"/>
+    <rect x="452" y="68" width="116" height="24" rx="12" class="c-accent"/>
+    {{ range $i, $w := slice 260 210 300 180 240 220 }}
+      {{ $y := add 124 (mul $i 34) }}
+      <line x1="72" x2="568" y1="{{ add $y 22 }}" y2="{{ add $y 22 }}" class="c-rule"/>
+      <rect x="72" y="{{ $y }}" width="{{ $w }}" height="10" rx="2" class="c-soft"/>
+      <rect x="{{ sub 568 70 }}" y="{{ $y }}" width="70" height="10" rx="2" class="{{ cond (eq $i 2) "c-accent" "c-soft" }}"/>
+    {{ end }}
+  {{ else if eq $v "system" }}
+    {{ range $r := seq 0 2 }}{{ range $c := seq 0 3 }}
+      {{ $x := add 64 (mul $c 132) }}{{ $y := add 64 (mul $r 96) }}
+      <rect x="{{ $x }}" y="{{ $y }}" width="116" height="80" rx="8" class="c-card"/>
+      {{ if eq (mod (add $r $c) 3) 0 }}<rect x="{{ add $x 16 }}" y="{{ add $y 30 }}" width="84" height="20" rx="10" class="c-accent"/>
+      {{ else if eq (mod (add $r $c) 3) 1 }}<rect x="{{ add $x 16 }}" y="{{ add $y 24 }}" width="84" height="32" rx="4" class="c-soft"/>
+      {{ else }}<circle cx="{{ add $x 34 }}" cy="{{ add $y 40 }}" r="12" class="c-ink"/><rect x="{{ add $x 54 }}" y="{{ add $y 35 }}" width="46" height="10" rx="2" class="c-soft"/>{{ end }}
+    {{ end }}{{ end }}
+  {{ else if eq $v "suite" }}
+    <ellipse cx="320" cy="96" rx="150" ry="44" class="c-soft"/>
+    {{ range $i := seq 0 6 }}
+      {{ $x := add 52 (mul $i 80) }}
+      <line x1="{{ add $x 32 }}" y1="140" x2="320" y2="112" class="c-rule"/>
+      <rect x="{{ $x }}" y="200" width="64" height="120" rx="8" class="{{ cond (eq $i 3) "c-accent" "c-card" }}"/>
+      <line x1="{{ add $x 32 }}" y1="200" x2="{{ add $x 32 }}" y2="140" class="c-rule"/>
+    {{ end }}
+  {{ else }}
+    <rect x="264" y="56" width="112" height="40" rx="6" class="c-ink"/>
+    {{ range $i := seq 0 3 }}
+      {{ $x := add 56 (mul $i 140) }}
+      <path d="M320 96 V128 H{{ add $x 50 }} V160" class="c-line"/>
+      <rect x="{{ $x }}" y="160" width="100" height="34" rx="6" class="{{ cond (eq $i 1) "c-accent" "c-card" }}"/>
+      {{ range $j := seq 0 2 }}
+        <rect x="{{ add $x 14 }}" y="{{ add 216 (mul $j 34) }}" width="72" height="22" rx="4" class="c-soft"/>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</svg>

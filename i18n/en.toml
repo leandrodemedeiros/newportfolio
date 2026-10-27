@@ -1,0 +1,50 @@
+[nav_work]
+other = "Work"
+[nav_ai]
+other = "Designing with AI"
+[nav_about]
+other = "About"
+[nav_cv]
+other = "Résumé"
+[skip]
+other = "Skip to content"
+[switch_lang]
+other = "Português"
+[selected_work]
+other = "Selected work"
+[read_case]
+other = "Read case study"
+[career]
+other = "Career"
+[about]
+other = "About"
+[education]
+other = "Education"
+[talks]
+other = "Talks and mentoring"
+[contact_title]
+other = "Let's talk"
+[contact_text]
+other = "I reply by email or LinkedIn. My full résumé is available as a PDF in English and Portuguese."
+[cv_pt]
+other = "Résumé in Portuguese (PDF)"
+[cv_en]
+other = "Résumé in English (PDF)"
+[role]
+other = "Role"
+[company]
+other = "Company"
+[period]
+other = "Period"
+[team]
+other = "Team"
+[results]
+other = "Results"
+[next_case]
+other = "Next case study"
+[back_home]
+other = "Back to home"
+[todo_label]
+other = "To complete (preview only)"
+[not_found]
+other = "This page doesn't exist. My work is on the home page."

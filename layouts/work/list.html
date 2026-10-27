@@ -1,0 +1,8 @@
+{{ define "main" }}
+<section class="wrap simple-page">
+  <h1>{{ i18n "selected_work" }}</h1>
+  <ul class="simple-list" role="list">
+    {{ range .Pages.ByWeight }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+  </ul>
+</section>
+{{ end }}

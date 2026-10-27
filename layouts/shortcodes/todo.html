@@ -1,0 +1,7 @@
+{{/* Notes for Leandro. Rendered only in local/preview builds, never in production. */}}
+{{ if not hugo.IsProduction }}
+<aside class="todo">
+  <strong>{{ i18n "todo_label" }}</strong>
+  {{ .Inner | markdownify }}
+</aside>
+{{ end }}

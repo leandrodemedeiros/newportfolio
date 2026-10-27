@@ -1,0 +1,5 @@
+{{/* Screenshot with caption: {{< shot src="img/cases/x.png" alt="..." caption="..." >}} */}}
+<figure class="shot">
+  <img src="{{ .Get "src" | relURL }}" alt="{{ .Get "alt" }}" loading="lazy">
+  {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

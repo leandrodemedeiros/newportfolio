@@ -1,0 +1,94 @@
+{{ define "bodyclass" }}home{{ end }}
+{{ define "main" }}
+{{ $p := .Params }}
+<section class="hero">
+  <div class="wrap hero-inner">
+    <h1>{{ $p.hero.title }}</h1>
+    <div class="hero-intro">{{ $p.hero.intro | markdownify }}</div>
+    <p class="hero-actions">
+      <a class="btn" href="#trabalhos">{{ $p.hero.cta }}</a>
+      <a class="btn btn-quiet" href="#contato">{{ $p.hero.contact }}</a>
+    </p>
+  </div>
+</section>
+
+<section class="work" id="trabalhos" aria-labelledby="work-title">
+  <div class="wrap">
+    <h2 id="work-title" class="section-title">{{ i18n "selected_work" }}</h2>
+    <ol class="case-list" role="list">
+      {{ range (where .Site.RegularPages "Section" "work").ByWeight }}
+      <li class="case-row">
+        <a class="case-link" href="{{ .RelPermalink }}">
+          <div class="case-cover">
+            {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ else }}{{ partial "cover.html" .Params.cover }}{{ end }}
+          </div>
+          <div class="case-text">
+            <p class="case-meta">{{ .Params.company }}, {{ .Params.period }}</p>
+            <h3>{{ .Title }}</h3>
+            <p class="case-summary">{{ .Params.summary }}</p>
+            {{ with index .Params.metrics 0 }}
+            <p class="case-metric"><span class="num">{{ .value }}</span> {{ .label }}</p>
+            {{ end }}
+            <span class="case-cta">{{ i18n "read_case" }}</span>
+          </div>
+        </a>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
+
+<section class="ai" id="ia" aria-labelledby="ai-title">
+  <div class="wrap ai-grid">
+    <div class="ai-lead">
+      <h2 id="ai-title" class="section-title">{{ $p.ai.title }}</h2>
+      <div class="prose">{{ $p.ai.text | markdownify }}</div>
+    </div>
+    <ul class="practices" role="list">
+      {{ range $p.ai.practices }}
+      <li>
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+
+<section class="career" aria-labelledby="career-title">
+  <div class="wrap">
+    <h2 id="career-title" class="section-title">{{ i18n "career" }}</h2>
+    <ol class="timeline" role="list">
+      {{ range $p.career }}
+      <li>
+        <span class="years">{{ .years }}</span>
+        <div>
+          <h3>{{ .role }}, {{ .company }}</h3>
+          <p>{{ .note }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </div>
+</section>
+
+<section class="about" id="sobre" aria-labelledby="about-title">
+  <div class="wrap about-grid">
+    <img class="portrait" src="{{ .Site.Params.photo | relURL }}" alt="{{ $p.about.photoAlt }}" width="360" height="360" loading="lazy">
+    <div class="about-text">
+      <h2 id="about-title" class="section-title">{{ i18n "about" }}</h2>
+      <div class="prose">{{ $p.about.text | markdownify }}</div>
+      <div class="about-cols">
+        <div>
+          <h3>{{ i18n "education" }}</h3>
+          <ul role="list">{{ range $p.about.education }}<li>{{ . }}</li>{{ end }}</ul>
+        </div>
+        <div>
+          <h3>{{ i18n "talks" }}</h3>
+          <ul role="list">{{ range $p.about.talks }}<li>{{ . }}</li>{{ end }}</ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

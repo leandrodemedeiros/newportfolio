@@ -1,0 +1,48 @@
+{{ define "bodyclass" }}case{{ end }}
+{{ define "main" }}
+<article>
+  <header class="case-head">
+    <div class="wrap">
+      <p class="case-meta"><a href="{{ .Site.Home.RelPermalink }}#trabalhos">{{ i18n "nav_work" }}</a></p>
+      <h1>{{ .Title }}</h1>
+      <p class="case-lede">{{ .Params.summary }}</p>
+      <dl class="facts">
+        <div><dt>{{ i18n "role" }}</dt><dd>{{ .Params.role }}</dd></div>
+        <div><dt>{{ i18n "company" }}</dt><dd>{{ .Params.company }}</dd></div>
+        <div><dt>{{ i18n "period" }}</dt><dd>{{ .Params.period }}</dd></div>
+        {{ with .Params.team }}<div><dt>{{ i18n "team" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+      </dl>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="case-cover case-cover-lg">
+      {{ with .Params.image }}<img src="{{ . | relURL }}" alt="">{{ else }}{{ partial "cover.html" .Params.cover }}{{ end }}
+    </div>
+  </div>
+
+  {{ with .Params.metrics }}
+  <section class="wrap results" aria-label="{{ i18n "results" }}">
+    <ul role="list">
+      {{ range . }}<li><span class="num">{{ .value }}</span><span class="label">{{ .label }}</span></li>{{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  <div class="wrap">
+    <div class="prose case-body">
+      {{ .Content }}
+    </div>
+  </div>
+
+  {{ $pages := (where .Site.RegularPages "Section" "work").ByWeight }}
+  {{ $next := $pages.Next . }}
+  {{ if not $next }}{{ $next = index $pages 0 }}{{ end }}
+  <nav class="wrap case-next" aria-label="{{ i18n "next_case" }}">
+    <a href="{{ $next.RelPermalink }}">
+      <span class="case-meta">{{ i18n "next_case" }}</span>
+      <span class="next-title">{{ $next.Title }}</span>
+    </a>
+  </nav>
+</article>
+{{ end }}

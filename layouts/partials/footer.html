@@ -1,0 +1,16 @@
+<footer class="site-footer" id="contato">
+  <div class="wrap footer-grid">
+    <div>
+      <h2>{{ i18n "contact_title" }}</h2>
+      <p>{{ i18n "contact_text" }}</p>
+    </div>
+    <ul class="contact-list">
+      <li><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></li>
+      <li><a href="{{ .Site.Params.linkedin }}">LinkedIn</a></li>
+      <li><a href="{{ .Site.Params.behance }}">Behance</a></li>
+      <li><a href="{{ "cv/CV-LeandroDeMedeiros-PT.pdf" | relURL }}">{{ i18n "cv_pt" }}</a></li>
+      <li><a href="{{ "cv/CV-LeandroDeMedeiros-EN.pdf" | relURL }}">{{ i18n "cv_en" }}</a></li>
+    </ul>
+  </div>
+  <div class="wrap colophon">© {{ now.Year }} Leandro de Medeiros</div>
+</footer>
