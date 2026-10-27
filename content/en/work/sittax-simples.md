@@ -1,11 +1,11 @@
 ---
 slug: "sittax-simples"
 title: "How I redesigned the core product of a tax platform with 15,000 users"
-summary: "As the product's sole designer, I redefined the whole experience of Sittax Simples, a tool that automates tax calculation for small businesses under Brazil's Simples Nacional regime."
+summary: "I redefined the whole experience of Sittax Simples, a tool that automates tax calculation for small businesses under Brazil's Simples Nacional regime."
 company: "Sittax"
-role: "Senior UX Designer, sole designer"
+role: "Senior UX Designer"
 period: "2024 to present"
-team: "Sole designer, working with product and engineering"
+team: "Design, product and engineering"
 cover: "ledger"
 weight: 1
 metrics:
@@ -23,7 +23,7 @@ metrics:
 
 Sittax Simples is Sittax's main product. It automates tax calculation, a task accounting firms do every month, for many clients at once and against legal deadlines. The people using it are accountants and their teams: they know the tax rules in depth and have no time to lose with the interface.
 
-I joined as the company's only designer, responsible for the full UX and UI cycle and working directly with the business teams.
+I was responsible for the product's UX and UI, from research to delivery, working directly with the business teams.
 
 ## The problem
 
@@ -45,7 +45,7 @@ Translate from the Portuguese version once it's complete.
 
 ## Results
 
-I was Sittax's only designer throughout the period in which the company grew from 1,000 to 6,000 customer firms. In 2025, with the new experience of Sittax Simples, its main product, the platform saved customers 255,000 hours of work and avoided R$504 million in improper taxes, according to Sittax.
+The redesign spanned the period in which Sittax grew from 1,000 to 6,000 customer firms. In 2025, with the new experience of Sittax Simples, its main product, I contributed to a platform that saved customers 255,000 hours of work and avoided R$504 million in improper taxes, according to Sittax.
 
 ## What I'd do differently
 

@@ -3,9 +3,9 @@ slug: "design-system"
 title: "One design system for 6 products, documented with AI"
 summary: "I built and maintain the Sittax design system, with components, tokens and documentation automated with Claude, so anyone on the team can build screens to the same standard."
 company: "Sittax"
-role: "Senior UX Designer, sole designer"
+role: "Senior UX Designer"
 period: "2024 to present"
-team: "Sole designer, serving 6 product teams"
+team: "Design, with the teams of all 6 products"
 cover: "system"
 weight: 2
 metrics:
@@ -17,7 +17,7 @@ metrics:
 
 ## Context
 
-Sittax has 6 products for accounting firms and tax professionals. As the only designer, I couldn't design every screen of every product. The answer had to be a system other people could use without me.
+Sittax has 6 products for accounting firms and tax professionals. To keep them consistent and speed up delivery, design had to scale beyond screens drawn one by one. The answer was a system the whole team could use.
 
 ## What I did
 

@@ -5,7 +5,7 @@ hero:
   title: "Faço software corporativo, de gestão e ERP ser simples de usar."
   intro: |
     Sou Leandro, product designer sênior com 20 anos em produtos B2B complexos, da pesquisa ao design system.
-    Desde 2024 sou o único designer da Sittax, e a experiência que redesenhei faz parte de uma plataforma que economizou 255 mil horas de trabalho dos clientes em 2025.
+    Na Sittax, redesenhei a experiência do principal produto e contribuí para uma plataforma que economizou 255 mil horas de trabalho dos clientes em 2025.
   cta: "Ver trabalhos"
   contact: "Falar comigo"
 ai:
@@ -25,7 +25,7 @@ career:
   - years: "2024 até hoje"
     role: "Senior UX Designer"
     company: "Sittax"
-    note: "Designer único do ciclo completo de produto. Criei o design system usado pelos 6 produtos e redesenhei a experiência do Sittax Simples."
+    note: "Responsável pelo ciclo de UX e UI, da pesquisa à entrega. Criei o design system usado pelos 6 produtos e redesenhei a experiência do Sittax Simples."
   - years: "2023 a 2024"
     role: "Senior Product Designer"
     company: "TOTVS"

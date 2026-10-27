@@ -1,11 +1,11 @@
 ---
 slug: "sittax-simples"
 title: "Como redesenhei o principal produto de uma plataforma fiscal com 15 mil usuários"
-summary: "Redefini toda a experiência do Sittax Simples, ferramenta que automatiza a apuração fiscal de empresas do Simples Nacional, como designer único do produto."
+summary: "Redefini toda a experiência do Sittax Simples, ferramenta que automatiza a apuração fiscal de empresas do Simples Nacional."
 company: "Sittax"
-role: "Senior UX Designer, designer único"
+role: "Senior UX Designer"
 period: "2024 até hoje"
-team: "Designer único, com produto e desenvolvimento"
+team: "Design, produto e desenvolvimento"
 cover: "ledger"
 weight: 1
 metrics:
@@ -23,7 +23,7 @@ metrics:
 
 O Sittax Simples é o principal produto da Sittax. Ele automatiza a apuração fiscal, um trabalho que escritórios de contabilidade fazem todo mês, para muitos clientes ao mesmo tempo e com prazo legal. Quem usa é o contador e sua equipe: pessoas que conhecem a regra fiscal a fundo e não têm tempo a perder com a interface.
 
-Entrei como o único designer da empresa, responsável pelo ciclo completo de UX e UI, com contato direto com as áreas de negócio.
+Fui responsável pelo ciclo de UX e UI do produto, da pesquisa à entrega, trabalhando diretamente com as áreas de negócio.
 
 ## O problema
 
@@ -49,7 +49,7 @@ Esta é a seção que recrutadores mais valorizam. Conte uma decisão difícil: 
 
 ## Resultado
 
-Fui o único designer da Sittax durante todo o período em que a empresa saiu de mil para 6 mil clientes. Em 2025, com a nova experiência do Sittax Simples, seu principal produto, a plataforma economizou 255 mil horas de trabalho dos clientes e evitou R$ 504 milhões em impostos indevidos, segundo a própria Sittax.
+O redesign acompanhou o período em que a Sittax passou de mil para 6 mil clientes. Em 2025, com a nova experiência do Sittax Simples, seu principal produto, contribuí para que a plataforma economizasse 255 mil horas de trabalho dos clientes e evitasse R$ 504 milhões em impostos indevidos, segundo a própria Sittax.
 
 {{< todo >}}
 Confirme quando a nova experiência foi ao ar. Se foi antes ou no início de 2025, dá para escrever "com a nova experiência no ar durante todo o ano". Um dado específico do redesign (menos chamados de suporte, menos tempo por apuração) fortaleceria ainda mais.

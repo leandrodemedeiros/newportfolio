@@ -3,9 +3,9 @@ slug: "design-system"
 title: "Um design system para 6 produtos, documentado com IA"
 summary: "Criei e mantenho o design system da Sittax, com componentes, tokens e documentação automatizada com o Claude, para que qualquer pessoa do time construa telas no mesmo padrão."
 company: "Sittax"
-role: "Senior UX Designer, designer único"
+role: "Senior UX Designer"
 period: "2024 até hoje"
-team: "Designer único, com 6 times de produto"
+team: "Design, com os times dos 6 produtos"
 cover: "system"
 weight: 2
 metrics:
@@ -17,7 +17,7 @@ metrics:
 
 ## Contexto
 
-A Sittax tem 6 produtos para escritórios de contabilidade e profissionais da área fiscal. Sendo o único designer, eu não conseguiria desenhar cada tela de cada produto. A solução precisava ser um sistema que outras pessoas pudessem usar sem mim.
+A Sittax tem 6 produtos para escritórios de contabilidade e profissionais da área fiscal. Para manter a consistência entre eles e acelerar as entregas, o design precisava escalar além de telas desenhadas uma a uma. A solução foi um sistema que o time inteiro pudesse usar.
 
 ## O que eu fiz
 
