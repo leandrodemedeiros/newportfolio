@@ -3,12 +3,15 @@
 {{ $p := .Params }}
 <section class="hero">
   <div class="wrap hero-inner">
+    <div class="hero-text">
     <h1>{{ $p.hero.title }}</h1>
     <div class="hero-intro">{{ $p.hero.intro | markdownify }}</div>
     <p class="hero-actions">
       <a class="btn" href="#trabalhos">{{ $p.hero.cta }}</a>
       <a class="btn btn-quiet" href="#contato">{{ $p.hero.contact }}</a>
     </p>
+    </div>
+    <img class="hero-portrait" src="{{ .Site.Params.photo | relURL }}" alt="{{ $p.about.photoAlt }}" width="280" height="280">
   </div>
 </section>
 
@@ -73,8 +76,7 @@
 </section>
 
 <section class="about" id="sobre" aria-labelledby="about-title">
-  <div class="wrap about-grid">
-    <img class="portrait" src="{{ .Site.Params.photo | relURL }}" alt="{{ $p.about.photoAlt }}" width="360" height="360" loading="lazy">
+  <div class="wrap">
     <div class="about-text">
       <h2 id="about-title" class="section-title">{{ i18n "about" }}</h2>
       <div class="prose">{{ $p.about.text | markdownify }}</div>

@@ -1,5 +1,5 @@
 /* Leandro de Medeiros — portfolio
-   Motif: ledger paper (ruled lines + double margin rule), from the tax/payroll/ERP work. */
+   Motif: ruled ledger paper with an ink-blue margin rule, the pen color of signed tax documents. */
 
 :root {
   --paper: #F3F5F7;
@@ -7,9 +7,9 @@
   --ink: #13233A;
   --muted: #566376;
   --rule: #D3DAE2;
-  --ledger: #1E6B57;
+  --ledger: #2447B3;
   --ledger-ink: #FFFFFF;
-  --ledger-soft: #E1EEE8;
+  --ledger-soft: #E6EBF7;
   --line: rgba(19, 35, 58, .09);
   --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
   --text: "Source Serif 4", Georgia, serif;
@@ -24,16 +24,16 @@
     --ink: #E7ECF2;
     --muted: #9AA7B6;
     --rule: #26354A;
-    --ledger: #6CC3A3;
+    --ledger: #93A9F2;
     --ledger-ink: #0F1722;
-    --ledger-soft: #173129;
+    --ledger-soft: #1A2440;
     --line: rgba(231, 236, 242, .07);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --paper: #0F1722; --surface: #152131; --ink: #E7ECF2; --muted: #9AA7B6;
-  --rule: #26354A; --ledger: #6CC3A3; --ledger-ink: #0F1722; --ledger-soft: #173129;
+  --rule: #26354A; --ledger: #93A9F2; --ledger-ink: #0F1722; --ledger-soft: #1A2440;
   --line: rgba(231, 236, 242, .07);
   color-scheme: dark;
 }
@@ -88,7 +88,9 @@ p { margin: 0 0 1em; }
   border-bottom: 1px solid var(--rule);
   padding: calc(var(--row) * 1.25) 0 calc(var(--row) * 1);
 }
-.hero-inner { position: relative; padding-left: calc(var(--gutter) + 28px); }
+.hero-inner { position: relative; padding-left: calc(var(--gutter) + 28px); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(32px, 5vw, 72px); align-items: center; }
+.hero-text { min-width: 0; }
+.hero-portrait { width: clamp(200px, 22vw, 280px); aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 6px solid var(--surface); box-shadow: 0 0 0 1px var(--rule); }
 .hero-inner::before {
   content: ""; position: absolute; top: -100vh; bottom: -100vh; left: var(--gutter);
   width: 7px; border-left: 2px solid var(--ledger); border-right: 2px solid var(--ledger); opacity: .55;
@@ -153,8 +155,7 @@ section { scroll-margin-top: 80px; }
 .timeline p { margin: 0; color: var(--muted); max-width: 70ch; }
 
 /* About */
-.about-grid { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 7fr); gap: clamp(32px, 6vw, 80px); align-items: start; }
-.portrait { border-radius: var(--radius); width: 100%; max-width: 360px; aspect-ratio: 1; object-fit: cover; filter: saturate(.85); }
+.about-text { max-width: 760px; }
 .about-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 2rem; }
 .about-cols h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: .6rem; }
 .about-cols ul { list-style: none; margin: 0; padding: 0; color: var(--muted); font-size: 1rem; }
@@ -217,9 +218,9 @@ section { scroll-margin-top: 80px; }
 
 /* Responsive */
 @media (max-width: 860px) {
-  .case-link, .ai-grid, .about-grid, .footer-grid { grid-template-columns: 1fr; }
+  .case-link, .ai-grid, .footer-grid, .hero-inner { grid-template-columns: 1fr; }
+  .hero-portrait { order: -1; width: 140px; }
   .timeline li { grid-template-columns: 1fr; gap: 4px; }
-  .portrait { max-width: 220px; }
 }
 @media (max-width: 520px) {
   body { font-size: 1.0625rem; }
