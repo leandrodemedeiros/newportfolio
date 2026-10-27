@@ -48,9 +48,9 @@ A legenda descreve o que a tela mostra. Se puder, conte em uma frase o que mudou
 
 ## Decisões e o que ficou de fora
 
-{{< todo >}}
-Esta é a seção que recrutadores mais valorizam. Conte uma decisão difícil: quais eram as opções, o que você escolheu, o que precisou abrir mão (prazo, regra de negócio, limitação técnica) e como convenceu o time.
-{{< /todo >}}
+A decisão mais difícil foi convencer os stakeholders de que, neste produto, mostrar menos é melhor. Em vez de colocar todos os dados na tela, mantive cada tela enxuta, focada no que realmente ajuda o contador a decidir.
+
+Esse foi o trabalho constante em todo o produto: quando a informação era muita, dividi o fluxo em passos que seguem o modelo mental do usuário, para que ele leia e analise os dados com mais clareza.
 
 ## Resultado
 

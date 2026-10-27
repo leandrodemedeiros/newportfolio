@@ -44,9 +44,9 @@ The goal of the redesign was to take that work out of spreadsheets. The product 
 
 ## Decisions and trade-offs
 
-{{< todo >}}
-Translate from the Portuguese version once it's complete.
-{{< /todo >}}
+The hardest decision was convincing stakeholders that, in this product, showing less is better. Instead of putting every piece of data on screen, I kept each screen lean and focused on what actually helps accountants make decisions.
+
+That was the constant work across the whole product: when there was too much information, I split the flow into steps that follow the user's mental model, so they could read and analyze the data more clearly.
 
 ## Results
 
