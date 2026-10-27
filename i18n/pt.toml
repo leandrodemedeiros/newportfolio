@@ -48,3 +48,5 @@ other = "Voltar para o início"
 other = "Para completar (só aparece na prévia)"
 [not_found]
 other = "Esta página não existe. Os trabalhos estão na página inicial."
+[theme_toggle]
+other = "Alternar modo claro e escuro"

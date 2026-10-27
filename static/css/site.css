@@ -237,7 +237,8 @@ section { scroll-margin-top: 80px; }
 .todo { margin: 1.6rem 0; padding: 1rem 1.2rem; border: 2px dashed #C58A00; border-radius: var(--radius); background: rgba(255, 196, 0, .08); font-family: var(--display); font-size: .98rem; }
 .todo strong { display: block; color: #9A6B00; margin-bottom: .35rem; }
 .todo p:last-child { margin-bottom: 0; }
-@media (prefers-color-scheme: dark) { .todo strong { color: #F2C14E; } }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .todo strong { color: #F2C14E; } }
+:root[data-theme="dark"] .todo strong { color: #F2C14E; }
 
 .case-next { padding-bottom: clamp(56px, 8vw, 96px); }
 .case-next a { display: block; border-top: 2px solid var(--ink); padding-top: 1.2rem; text-decoration: none; }
@@ -262,6 +263,24 @@ section { scroll-margin-top: 80px; }
   :root:not([data-theme="light"]) .site-footer { background: #0A1018; color: var(--ink); border-top: 1px solid var(--rule); }
   :root:not([data-theme="light"]) .site-footer a { color: var(--ink); }
 }
+:root[data-theme="dark"] .site-footer { background: #0A1018; color: var(--ink); border-top: 1px solid var(--rule); }
+:root[data-theme="dark"] .site-footer a { color: var(--ink); }
+
+/* Theme toggle */
+.site-header nav li { display: flex; align-items: center; }
+.theme-toggle {
+  display: inline-grid; place-items: center; width: 36px; height: 36px; padding: 0; margin: -6px 0;
+  background: transparent; color: var(--muted); border: 1px solid var(--rule); border-radius: 999px; cursor: pointer;
+}
+.theme-toggle:hover { color: var(--ink); border-color: var(--ink); }
+.theme-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; }
+.theme-toggle .icon-sun { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: block; }
+  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
+}
+:root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
+:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
 /* Responsive */
 @media (max-width: 860px) {

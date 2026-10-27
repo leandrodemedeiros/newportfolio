@@ -48,3 +48,5 @@ other = "Back to home"
 other = "To complete (preview only)"
 [not_found]
 other = "This page doesn't exist. My work is on the home page."
+[theme_toggle]
+other = "Toggle light and dark mode"
